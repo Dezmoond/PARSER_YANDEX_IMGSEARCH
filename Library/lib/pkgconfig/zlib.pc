@@ -1,0 +1,13 @@
+prefix=D:/anaconda3/envs/parser/Library
+exec_prefix=D:/anaconda3/envs/parser/Library
+libdir=D:/anaconda3/envs/parser/Library/lib
+sharedlibdir=D:/anaconda3/envs/parser/Library/lib
+includedir=D:/anaconda3/envs/parser/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

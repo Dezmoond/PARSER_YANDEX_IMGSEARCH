@@ -1,0 +1,113 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "D:\\anaconda3\\pkgs\\pathlib-1.0.1-pyhd3eb1b0_1",
+  "files": [
+    "Lib/site-packages/pathlib-1.0.1.dist-info/INSTALLER",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/METADATA",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/RECORD",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/REQUESTED",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/WHEEL",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/direct_url.json",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/top_level.txt",
+    "Lib/site-packages/pathlib.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/pathlib.cpython-312.pyc"
+  ],
+  "fn": "pathlib-1.0.1-pyhd3eb1b0_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\anaconda3\\pkgs\\pathlib-1.0.1-pyhd3eb1b0_1",
+    "type": 1
+  },
+  "md5": "591965670ef0674df46f78641a5fb132",
+  "name": "pathlib",
+  "noarch": "python",
+  "package_tarball_full_path": "D:\\anaconda3\\pkgs\\pathlib-1.0.1-pyhd3eb1b0_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "ec52b4460787a7da1f6db70bbe9e1e649c73f7cb14eebaf10e5db9fe7f7e9cd9",
+        "sha256_in_prefix": "ec52b4460787a7da1f6db70bbe9e1e649c73f7cb14eebaf10e5db9fe7f7e9cd9",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b100f025d105c2d8e793f534b4df5f5f3eeb554e87aa19fa3fc1c5c5c7d0a848",
+        "sha256_in_prefix": "b100f025d105c2d8e793f534b4df5f5f3eeb554e87aa19fa3fc1c5c5c7d0a848",
+        "size_in_bytes": 5123
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "664ff807ac6e8dcf497bb10edfcbc292f7968eeea397af58757f42dabd74a114",
+        "sha256_in_prefix": "664ff807ac6e8dcf497bb10edfcbc292f7968eeea397af58757f42dabd74a114",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e57511f76f69f6adca53f7efd53d2c2e39ca099a244fd5a09ca8ca2362d1fba5",
+        "sha256_in_prefix": "e57511f76f69f6adca53f7efd53d2c2e39ca099a244fd5a09ca8ca2362d1fba5",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pathlib-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ce179fb1a36e01261aa1917e10b1b74cf167e92d9cb81d5f77c3e53452eb321d",
+        "sha256_in_prefix": "ce179fb1a36e01261aa1917e10b1b74cf167e92d9cb81d5f77c3e53452eb321d",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pathlib.py",
+        "path_type": "hardlink",
+        "sha256": "f4c7dba104c472eb1c826ed900b04c4c3a4bc03fb63c24d2532865036b5cbeac",
+        "sha256_in_prefix": "f4c7dba104c472eb1c826ed900b04c4c3a4bc03fb63c24d2532865036b5cbeac",
+        "size_in_bytes": 41481
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/pathlib.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pathlib",
+  "sha256": "411c25fd4bba9f1e0262804356df3955f0b392c4cbe0833dce334197b6890313",
+  "size": 17633,
+  "subdir": "noarch",
+  "timestamp": 1629713980000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pathlib-1.0.1-pyhd3eb1b0_1.conda",
+  "version": "1.0.1"
+}

@@ -1,0 +1,2248 @@
+{
+  "build": "h9e645db_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "glib >=2.69.1,<3.0a0",
+    "gstreamer >=1.18.5,<2.0a0",
+    "libogg",
+    "libvorbis",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "D:\\anaconda3\\pkgs\\gst-plugins-base-1.18.5-h9e645db_0",
+  "files": [
+    "Library/bin/gst-device-monitor-1.0.exe",
+    "Library/bin/gst-discoverer-1.0.exe",
+    "Library/bin/gst-play-1.0.exe",
+    "Library/bin/gstallocators-1.0-0.dll",
+    "Library/bin/gstapp-1.0-0.dll",
+    "Library/bin/gstaudio-1.0-0.dll",
+    "Library/bin/gstfft-1.0-0.dll",
+    "Library/bin/gstpbutils-1.0-0.dll",
+    "Library/bin/gstriff-1.0-0.dll",
+    "Library/bin/gstrtp-1.0-0.dll",
+    "Library/bin/gstrtsp-1.0-0.dll",
+    "Library/bin/gstsdp-1.0-0.dll",
+    "Library/bin/gsttag-1.0-0.dll",
+    "Library/bin/gstvideo-1.0-0.dll",
+    "Library/include/gstreamer-1.0/gst/allocators/allocators-prelude.h",
+    "Library/include/gstreamer-1.0/gst/allocators/allocators.h",
+    "Library/include/gstreamer-1.0/gst/allocators/gstdmabuf.h",
+    "Library/include/gstreamer-1.0/gst/allocators/gstfdmemory.h",
+    "Library/include/gstreamer-1.0/gst/allocators/gstphysmemory.h",
+    "Library/include/gstreamer-1.0/gst/app/app-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/app/app-prelude.h",
+    "Library/include/gstreamer-1.0/gst/app/app.h",
+    "Library/include/gstreamer-1.0/gst/app/gstappsink.h",
+    "Library/include/gstreamer-1.0/gst/app/gstappsrc.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-buffer.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-channel-mixer.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-channels.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-converter.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-format.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-info.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-prelude.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-quantize.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio-resampler.h",
+    "Library/include/gstreamer-1.0/gst/audio/audio.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudioaggregator.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiobasesink.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiobasesrc.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiocdsrc.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudioclock.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiodecoder.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudioencoder.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiofilter.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudioiec61937.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiometa.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudioringbuffer.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiosink.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiosrc.h",
+    "Library/include/gstreamer-1.0/gst/audio/gstaudiostreamalign.h",
+    "Library/include/gstreamer-1.0/gst/audio/streamvolume.h",
+    "Library/include/gstreamer-1.0/gst/fft/fft-prelude.h",
+    "Library/include/gstreamer-1.0/gst/fft/fft.h",
+    "Library/include/gstreamer-1.0/gst/fft/gstfft.h",
+    "Library/include/gstreamer-1.0/gst/fft/gstfftf32.h",
+    "Library/include/gstreamer-1.0/gst/fft/gstfftf64.h",
+    "Library/include/gstreamer-1.0/gst/fft/gstffts16.h",
+    "Library/include/gstreamer-1.0/gst/fft/gstffts32.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/codec-utils.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/descriptions.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/encoding-profile.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/encoding-target.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/gstaudiovisualizer.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/gstdiscoverer.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/gstpluginsbaseversion.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/install-plugins.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/missing-plugins.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/pbutils-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/pbutils-prelude.h",
+    "Library/include/gstreamer-1.0/gst/pbutils/pbutils.h",
+    "Library/include/gstreamer-1.0/gst/riff/riff-ids.h",
+    "Library/include/gstreamer-1.0/gst/riff/riff-media.h",
+    "Library/include/gstreamer-1.0/gst/riff/riff-prelude.h",
+    "Library/include/gstreamer-1.0/gst/riff/riff-read.h",
+    "Library/include/gstreamer-1.0/gst/riff/riff.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtcpbuffer.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtp-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpbaseaudiopayload.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpbasedepayload.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpbasepayload.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpbuffer.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpdefs.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtphdrext.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtpmeta.h",
+    "Library/include/gstreamer-1.0/gst/rtp/gstrtppayloads.h",
+    "Library/include/gstreamer-1.0/gst/rtp/rtp-prelude.h",
+    "Library/include/gstreamer-1.0/gst/rtp/rtp.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtsp-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtsp.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtspconnection.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtspdefs.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtspextension.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtspmessage.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtsprange.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtsptransport.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/gstrtspurl.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/rtsp-prelude.h",
+    "Library/include/gstreamer-1.0/gst/rtsp/rtsp.h",
+    "Library/include/gstreamer-1.0/gst/sdp/gstmikey.h",
+    "Library/include/gstreamer-1.0/gst/sdp/gstsdp.h",
+    "Library/include/gstreamer-1.0/gst/sdp/gstsdpmessage.h",
+    "Library/include/gstreamer-1.0/gst/sdp/sdp-prelude.h",
+    "Library/include/gstreamer-1.0/gst/sdp/sdp.h",
+    "Library/include/gstreamer-1.0/gst/tag/gsttagdemux.h",
+    "Library/include/gstreamer-1.0/gst/tag/gsttagmux.h",
+    "Library/include/gstreamer-1.0/gst/tag/tag-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/tag/tag-prelude.h",
+    "Library/include/gstreamer-1.0/gst/tag/tag.h",
+    "Library/include/gstreamer-1.0/gst/tag/xmpwriter.h",
+    "Library/include/gstreamer-1.0/gst/video/colorbalance.h",
+    "Library/include/gstreamer-1.0/gst/video/colorbalancechannel.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideoaffinetransformationmeta.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideoaggregator.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideodecoder.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideoencoder.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideofilter.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideometa.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideopool.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideosink.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideotimecode.h",
+    "Library/include/gstreamer-1.0/gst/video/gstvideoutils.h",
+    "Library/include/gstreamer-1.0/gst/video/navigation.h",
+    "Library/include/gstreamer-1.0/gst/video/video-anc.h",
+    "Library/include/gstreamer-1.0/gst/video/video-blend.h",
+    "Library/include/gstreamer-1.0/gst/video/video-chroma.h",
+    "Library/include/gstreamer-1.0/gst/video/video-color.h",
+    "Library/include/gstreamer-1.0/gst/video/video-converter.h",
+    "Library/include/gstreamer-1.0/gst/video/video-dither.h",
+    "Library/include/gstreamer-1.0/gst/video/video-enumtypes.h",
+    "Library/include/gstreamer-1.0/gst/video/video-event.h",
+    "Library/include/gstreamer-1.0/gst/video/video-format.h",
+    "Library/include/gstreamer-1.0/gst/video/video-frame.h",
+    "Library/include/gstreamer-1.0/gst/video/video-hdr.h",
+    "Library/include/gstreamer-1.0/gst/video/video-info.h",
+    "Library/include/gstreamer-1.0/gst/video/video-multiview.h",
+    "Library/include/gstreamer-1.0/gst/video/video-overlay-composition.h",
+    "Library/include/gstreamer-1.0/gst/video/video-prelude.h",
+    "Library/include/gstreamer-1.0/gst/video/video-resampler.h",
+    "Library/include/gstreamer-1.0/gst/video/video-scaler.h",
+    "Library/include/gstreamer-1.0/gst/video/video-tile.h",
+    "Library/include/gstreamer-1.0/gst/video/video.h",
+    "Library/include/gstreamer-1.0/gst/video/videodirection.h",
+    "Library/include/gstreamer-1.0/gst/video/videoorientation.h",
+    "Library/include/gstreamer-1.0/gst/video/videooverlay.h",
+    "Library/lib/girepository-1.0/GstAllocators-1.0.typelib",
+    "Library/lib/girepository-1.0/GstApp-1.0.typelib",
+    "Library/lib/girepository-1.0/GstAudio-1.0.typelib",
+    "Library/lib/girepository-1.0/GstPbutils-1.0.typelib",
+    "Library/lib/girepository-1.0/GstRtp-1.0.typelib",
+    "Library/lib/girepository-1.0/GstRtsp-1.0.typelib",
+    "Library/lib/girepository-1.0/GstSdp-1.0.typelib",
+    "Library/lib/girepository-1.0/GstTag-1.0.typelib",
+    "Library/lib/girepository-1.0/GstVideo-1.0.typelib",
+    "Library/lib/gstallocators-1.0.lib",
+    "Library/lib/gstapp-1.0.lib",
+    "Library/lib/gstaudio-1.0.lib",
+    "Library/lib/gstfft-1.0.lib",
+    "Library/lib/gstpbutils-1.0.lib",
+    "Library/lib/gstreamer-1.0/gstadder.dll",
+    "Library/lib/gstreamer-1.0/gstadder.lib",
+    "Library/lib/gstreamer-1.0/gstapp.dll",
+    "Library/lib/gstreamer-1.0/gstapp.lib",
+    "Library/lib/gstreamer-1.0/gstaudioconvert.dll",
+    "Library/lib/gstreamer-1.0/gstaudioconvert.lib",
+    "Library/lib/gstreamer-1.0/gstaudiomixer.dll",
+    "Library/lib/gstreamer-1.0/gstaudiomixer.lib",
+    "Library/lib/gstreamer-1.0/gstaudiorate.dll",
+    "Library/lib/gstreamer-1.0/gstaudiorate.lib",
+    "Library/lib/gstreamer-1.0/gstaudioresample.dll",
+    "Library/lib/gstreamer-1.0/gstaudioresample.lib",
+    "Library/lib/gstreamer-1.0/gstaudiotestsrc.dll",
+    "Library/lib/gstreamer-1.0/gstaudiotestsrc.lib",
+    "Library/lib/gstreamer-1.0/gstcompositor.dll",
+    "Library/lib/gstreamer-1.0/gstcompositor.lib",
+    "Library/lib/gstreamer-1.0/gstencoding.dll",
+    "Library/lib/gstreamer-1.0/gstencoding.lib",
+    "Library/lib/gstreamer-1.0/gstgio.dll",
+    "Library/lib/gstreamer-1.0/gstgio.lib",
+    "Library/lib/gstreamer-1.0/gstogg.dll",
+    "Library/lib/gstreamer-1.0/gstogg.lib",
+    "Library/lib/gstreamer-1.0/gstoverlaycomposition.dll",
+    "Library/lib/gstreamer-1.0/gstoverlaycomposition.lib",
+    "Library/lib/gstreamer-1.0/gstpbtypes.dll",
+    "Library/lib/gstreamer-1.0/gstpbtypes.lib",
+    "Library/lib/gstreamer-1.0/gstplayback.dll",
+    "Library/lib/gstreamer-1.0/gstplayback.lib",
+    "Library/lib/gstreamer-1.0/gstrawparse.dll",
+    "Library/lib/gstreamer-1.0/gstrawparse.lib",
+    "Library/lib/gstreamer-1.0/gstsubparse.dll",
+    "Library/lib/gstreamer-1.0/gstsubparse.lib",
+    "Library/lib/gstreamer-1.0/gsttcp.dll",
+    "Library/lib/gstreamer-1.0/gsttcp.lib",
+    "Library/lib/gstreamer-1.0/gsttypefindfunctions.dll",
+    "Library/lib/gstreamer-1.0/gsttypefindfunctions.lib",
+    "Library/lib/gstreamer-1.0/gstvideoconvert.dll",
+    "Library/lib/gstreamer-1.0/gstvideoconvert.lib",
+    "Library/lib/gstreamer-1.0/gstvideorate.dll",
+    "Library/lib/gstreamer-1.0/gstvideorate.lib",
+    "Library/lib/gstreamer-1.0/gstvideoscale.dll",
+    "Library/lib/gstreamer-1.0/gstvideoscale.lib",
+    "Library/lib/gstreamer-1.0/gstvideotestsrc.dll",
+    "Library/lib/gstreamer-1.0/gstvideotestsrc.lib",
+    "Library/lib/gstreamer-1.0/gstvolume.dll",
+    "Library/lib/gstreamer-1.0/gstvolume.lib",
+    "Library/lib/gstriff-1.0.lib",
+    "Library/lib/gstrtp-1.0.lib",
+    "Library/lib/gstrtsp-1.0.lib",
+    "Library/lib/gstsdp-1.0.lib",
+    "Library/lib/gsttag-1.0.lib",
+    "Library/lib/gstvideo-1.0.lib",
+    "Library/lib/pkgconfig/gstreamer-allocators-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-app-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-audio-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-fft-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-pbutils-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-plugins-base-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-riff-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-rtp-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-rtsp-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-sdp-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-tag-1.0.pc",
+    "Library/lib/pkgconfig/gstreamer-video-1.0.pc",
+    "Library/share/gir-1.0/GstAllocators-1.0.gir",
+    "Library/share/gir-1.0/GstApp-1.0.gir",
+    "Library/share/gir-1.0/GstAudio-1.0.gir",
+    "Library/share/gir-1.0/GstPbutils-1.0.gir",
+    "Library/share/gir-1.0/GstRtp-1.0.gir",
+    "Library/share/gir-1.0/GstRtsp-1.0.gir",
+    "Library/share/gir-1.0/GstSdp-1.0.gir",
+    "Library/share/gir-1.0/GstTag-1.0.gir",
+    "Library/share/gir-1.0/GstVideo-1.0.gir",
+    "Library/share/gst-plugins-base/1.0/license-translations.dict",
+    "Library/share/locale/af/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/az/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/bg/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/ca/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/cs/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/da/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/de/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/el/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/en_GB/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/eo/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/es/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/eu/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/fi/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/fr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/fur/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/gl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/hr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/hu/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/id/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/it/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/ja/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/lt/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/lv/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/nb/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/nl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/or/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/pl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/pt_BR/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/ro/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/ru/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/sk/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/sl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/sq/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/sr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/sv/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/tr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/uk/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/vi/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/locale/zh_CN/LC_MESSAGES/gst-plugins-base-1.0.mo",
+    "Library/share/man/man1/gst-device-monitor-1.0.1",
+    "Library/share/man/man1/gst-discoverer-1.0.1",
+    "Library/share/man/man1/gst-play-1.0.1",
+    ".nonadmin"
+  ],
+  "fn": "gst-plugins-base-1.18.5-h9e645db_0.conda",
+  "license": "",
+  "link": {
+    "source": "D:\\anaconda3\\pkgs\\gst-plugins-base-1.18.5-h9e645db_0",
+    "type": 1
+  },
+  "md5": "ad867350766fa62e9123bcf91c96379b",
+  "name": "gst-plugins-base",
+  "package_tarball_full_path": "D:\\anaconda3\\pkgs\\gst-plugins-base-1.18.5-h9e645db_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gst-device-monitor-1.0.exe",
+        "path_type": "hardlink",
+        "sha256": "f0fc3b89b00fbd2004044f4659655e277e4e711dc8dda37599c8a70ed8932405",
+        "sha256_in_prefix": "f0fc3b89b00fbd2004044f4659655e277e4e711dc8dda37599c8a70ed8932405",
+        "size_in_bytes": 17920
+      },
+      {
+        "_path": "Library/bin/gst-discoverer-1.0.exe",
+        "path_type": "hardlink",
+        "sha256": "684bbd49ea497369ac972e1452303e7c973dd99b2f8dd2139929a5d75da757f1",
+        "sha256_in_prefix": "684bbd49ea497369ac972e1452303e7c973dd99b2f8dd2139929a5d75da757f1",
+        "size_in_bytes": 24576
+      },
+      {
+        "_path": "Library/bin/gst-play-1.0.exe",
+        "path_type": "hardlink",
+        "sha256": "20381bac59968203c580c66b3b71e60211bbd3950777e66e5f58b2a0a4dbf965",
+        "sha256_in_prefix": "20381bac59968203c580c66b3b71e60211bbd3950777e66e5f58b2a0a4dbf965",
+        "size_in_bytes": 35328
+      },
+      {
+        "_path": "Library/bin/gstallocators-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "3ff37156b72f4bdfe6d8398cdb5b18d50533b711ab1adac2e67219676eadd140",
+        "sha256_in_prefix": "3ff37156b72f4bdfe6d8398cdb5b18d50533b711ab1adac2e67219676eadd140",
+        "size_in_bytes": 13824
+      },
+      {
+        "_path": "Library/bin/gstapp-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "3cf6007deb1ec3041ea14dc7798565f6f0da1d36bdb2cc35e113661ef2ed3c30",
+        "sha256_in_prefix": "3cf6007deb1ec3041ea14dc7798565f6f0da1d36bdb2cc35e113661ef2ed3c30",
+        "size_in_bytes": 55808
+      },
+      {
+        "_path": "Library/bin/gstaudio-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "95745305d835e87d7262162dd34bc8ecbbc6630be854c7ea4096df935819b711",
+        "sha256_in_prefix": "95745305d835e87d7262162dd34bc8ecbbc6630be854c7ea4096df935819b711",
+        "size_in_bytes": 436224
+      },
+      {
+        "_path": "Library/bin/gstfft-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "7e1b0eda8ffaa17476fe2308cff007921948e8572217467186641bc407a8700e",
+        "sha256_in_prefix": "7e1b0eda8ffaa17476fe2308cff007921948e8572217467186641bc407a8700e",
+        "size_in_bytes": 59904
+      },
+      {
+        "_path": "Library/bin/gstpbutils-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "32756562a39e0cbf8b83eac2aec83f9121503d113aff60e77a5e4f47a6520a69",
+        "sha256_in_prefix": "32756562a39e0cbf8b83eac2aec83f9121503d113aff60e77a5e4f47a6520a69",
+        "size_in_bytes": 214016
+      },
+      {
+        "_path": "Library/bin/gstriff-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "0cdf91bf94afca441c66b603a074846b44e774d66967ad743671b17d88bd3563",
+        "sha256_in_prefix": "0cdf91bf94afca441c66b603a074846b44e774d66967ad743671b17d88bd3563",
+        "size_in_bytes": 53760
+      },
+      {
+        "_path": "Library/bin/gstrtp-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "37ecf8c460270af43f3b92e8941a3946743c32ef81dafcdd72c9b26a11a7c0ca",
+        "sha256_in_prefix": "37ecf8c460270af43f3b92e8941a3946743c32ef81dafcdd72c9b26a11a7c0ca",
+        "size_in_bytes": 117760
+      },
+      {
+        "_path": "Library/bin/gstrtsp-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "27490a6d98f679efb6ef0388fd3327e0ce19ab7ae1f5155824e7cf271a41740a",
+        "sha256_in_prefix": "27490a6d98f679efb6ef0388fd3327e0ce19ab7ae1f5155824e7cf271a41740a",
+        "size_in_bytes": 120832
+      },
+      {
+        "_path": "Library/bin/gstsdp-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "d342cda02e9c7852eb8f8aef3ce0cecf8a1a8eba68f73007f7031cac48fce9d9",
+        "sha256_in_prefix": "d342cda02e9c7852eb8f8aef3ce0cecf8a1a8eba68f73007f7031cac48fce9d9",
+        "size_in_bytes": 89600
+      },
+      {
+        "_path": "Library/bin/gsttag-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "1a1dc7ccdc7e77f0330d13747720b4017488a14b16e411c0d2732a3d3649fbf5",
+        "sha256_in_prefix": "1a1dc7ccdc7e77f0330d13747720b4017488a14b16e411c0d2732a3d3649fbf5",
+        "size_in_bytes": 220160
+      },
+      {
+        "_path": "Library/bin/gstvideo-1.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "e164f6bacc7a25afb9a646d8ce59b08193f8cf8832f432fd8f474a1d19803a25",
+        "sha256_in_prefix": "e164f6bacc7a25afb9a646d8ce59b08193f8cf8832f432fd8f474a1d19803a25",
+        "size_in_bytes": 608768
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/allocators/allocators-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "05a630491cfdf7097ee8f1ab7a013539ac486418921c2f5cf2937895607568b2",
+        "sha256_in_prefix": "05a630491cfdf7097ee8f1ab7a013539ac486418921c2f5cf2937895607568b2",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/allocators/allocators.h",
+        "path_type": "hardlink",
+        "sha256": "d16561f85835d1db6523189b6ec0b3106b65bb2bfba23fff691a0c8f5136bc78",
+        "sha256_in_prefix": "d16561f85835d1db6523189b6ec0b3106b65bb2bfba23fff691a0c8f5136bc78",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/allocators/gstdmabuf.h",
+        "path_type": "hardlink",
+        "sha256": "f79d6a178777c2fe1c1010b83d9f6a713b7c8758eefe08e9155e683b4bca7c65",
+        "sha256_in_prefix": "f79d6a178777c2fe1c1010b83d9f6a713b7c8758eefe08e9155e683b4bca7c65",
+        "size_in_bytes": 4484
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/allocators/gstfdmemory.h",
+        "path_type": "hardlink",
+        "sha256": "9e2b3d7cd7488bc5950f41b019c83a5441fa10548dbf3aa3390016f178d87008",
+        "sha256_in_prefix": "9e2b3d7cd7488bc5950f41b019c83a5441fa10548dbf3aa3390016f178d87008",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/allocators/gstphysmemory.h",
+        "path_type": "hardlink",
+        "sha256": "a65d496a264dcfb7c8d76998a5c6a296156a0613073662d8b37951e82aa62f2d",
+        "sha256_in_prefix": "a65d496a264dcfb7c8d76998a5c6a296156a0613073662d8b37951e82aa62f2d",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/app/app-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "7fdd8de827ba066f40d22cd9ecb0bfaf10c631832637f01a62b630693f898a8c",
+        "sha256_in_prefix": "7fdd8de827ba066f40d22cd9ecb0bfaf10c631832637f01a62b630693f898a8c",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/app/app-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "54cba6299c47883b2cbe1fc85e94e76a612f4da2b097c08a9e1c6560f1a2c647",
+        "sha256_in_prefix": "54cba6299c47883b2cbe1fc85e94e76a612f4da2b097c08a9e1c6560f1a2c647",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/app/app.h",
+        "path_type": "hardlink",
+        "sha256": "e1747545a44c624022058bd776d3b858f496935724e41260521f4b83df725550",
+        "sha256_in_prefix": "e1747545a44c624022058bd776d3b858f496935724e41260521f4b83df725550",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/app/gstappsink.h",
+        "path_type": "hardlink",
+        "sha256": "0d8e6506ffc1f124593f24874481389a7eaf0631bddf1cba76492ad59c74ce99",
+        "sha256_in_prefix": "0d8e6506ffc1f124593f24874481389a7eaf0631bddf1cba76492ad59c74ce99",
+        "size_in_bytes": 5580
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/app/gstappsrc.h",
+        "path_type": "hardlink",
+        "sha256": "63f73ff291874b8abed244c4277f88c30bd4cb0ad56248e656c06c029f42b133",
+        "sha256_in_prefix": "63f73ff291874b8abed244c4277f88c30bd4cb0ad56248e656c06c029f42b133",
+        "size_in_bytes": 6485
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-buffer.h",
+        "path_type": "hardlink",
+        "sha256": "1df6b95fd17e188c9c15aad848ecc9108c34c64ca6ba0868aeba15090cfb0073",
+        "sha256_in_prefix": "1df6b95fd17e188c9c15aad848ecc9108c34c64ca6ba0868aeba15090cfb0073",
+        "size_in_bytes": 3591
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-channel-mixer.h",
+        "path_type": "hardlink",
+        "sha256": "60fa943c94337291a20aeaa0ae8d7a061c7a8d009613f3a2aaaafeee35fe19a6",
+        "sha256_in_prefix": "60fa943c94337291a20aeaa0ae8d7a061c7a8d009613f3a2aaaafeee35fe19a6",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-channels.h",
+        "path_type": "hardlink",
+        "sha256": "25e6f1bf4794a3c1a3fb2892286133374b78f9e8acf997c37c4e7d6f32b32d0a",
+        "sha256_in_prefix": "25e6f1bf4794a3c1a3fb2892286133374b78f9e8acf997c37c4e7d6f32b32d0a",
+        "size_in_bytes": 8664
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-converter.h",
+        "path_type": "hardlink",
+        "sha256": "58c682e8fc17a18963fc245a23fbbc264ce4c7a3115d8b23e636b6cc2b761ea3",
+        "sha256_in_prefix": "58c682e8fc17a18963fc245a23fbbc264ce4c7a3115d8b23e636b6cc2b761ea3",
+        "size_in_bytes": 6580
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "a1a57b86c95a67f72a1fcd881863bff06f5b843dfe3c91fc9a0a671f9839930e",
+        "sha256_in_prefix": "a1a57b86c95a67f72a1fcd881863bff06f5b843dfe3c91fc9a0a671f9839930e",
+        "size_in_bytes": 4005
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-format.h",
+        "path_type": "hardlink",
+        "sha256": "57d950f3ffd849d57e3f07902b571f12f2cf399e999e5921dbdff7a39b8e84aa",
+        "sha256_in_prefix": "57d950f3ffd849d57e3f07902b571f12f2cf399e999e5921dbdff7a39b8e84aa",
+        "size_in_bytes": 15249
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-info.h",
+        "path_type": "hardlink",
+        "sha256": "74ff74f4febe6acf14b3f691846483f2c897f46a965161be0a1039b37ac5bebd",
+        "sha256_in_prefix": "74ff74f4febe6acf14b3f691846483f2c897f46a965161be0a1039b37ac5bebd",
+        "size_in_bytes": 5298
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "5be06f453e6969021ac814c6271fa7d4fe36e9b64310afd324a6b73cfb212c66",
+        "sha256_in_prefix": "5be06f453e6969021ac814c6271fa7d4fe36e9b64310afd324a6b73cfb212c66",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-quantize.h",
+        "path_type": "hardlink",
+        "sha256": "d79e208e8739b2a267ca587467c6b4ddb6332dea7fa0bb11e379464eed580e52",
+        "sha256_in_prefix": "d79e208e8739b2a267ca587467c6b4ddb6332dea7fa0bb11e379464eed580e52",
+        "size_in_bytes": 3518
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio-resampler.h",
+        "path_type": "hardlink",
+        "sha256": "c1bcd7acbd7a64a2d6ccd6492fad7fd5749dab6a4a7a2ab9c4f5ccbb765981d2",
+        "sha256_in_prefix": "c1bcd7acbd7a64a2d6ccd6492fad7fd5749dab6a4a7a2ab9c4f5ccbb765981d2",
+        "size_in_bytes": 9620
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/audio.h",
+        "path_type": "hardlink",
+        "sha256": "47a1650916781dd7a808c3f757b63f24d1929ae409693dffe4f0fa28f5b8fd59",
+        "sha256_in_prefix": "47a1650916781dd7a808c3f757b63f24d1929ae409693dffe4f0fa28f5b8fd59",
+        "size_in_bytes": 3583
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudioaggregator.h",
+        "path_type": "hardlink",
+        "sha256": "0b71351e598ebd7f925a19535428ec0be1cd37a06938bc60e69d67420d2f6c2f",
+        "sha256_in_prefix": "0b71351e598ebd7f925a19535428ec0be1cd37a06938bc60e69d67420d2f6c2f",
+        "size_in_bytes": 8191
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiobasesink.h",
+        "path_type": "hardlink",
+        "sha256": "b72aae2a7d5ea822d423ead778db020afa2ef4f49d55b73ea0cd49452a9c3075",
+        "sha256_in_prefix": "b72aae2a7d5ea822d423ead778db020afa2ef4f49d55b73ea0cd49452a9c3075",
+        "size_in_bytes": 11039
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiobasesrc.h",
+        "path_type": "hardlink",
+        "sha256": "069ba75388f46c6b948b71bc9b31bb6812c13c754c3fe6303d9c9f5599158773",
+        "sha256_in_prefix": "069ba75388f46c6b948b71bc9b31bb6812c13c754c3fe6303d9c9f5599158773",
+        "size_in_bytes": 5038
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiocdsrc.h",
+        "path_type": "hardlink",
+        "sha256": "8c4c4dd4d4c573869bc31f048265ec53fb7e0a06664962dbaa65ab690948fe6f",
+        "sha256_in_prefix": "8c4c4dd4d4c573869bc31f048265ec53fb7e0a06664962dbaa65ab690948fe6f",
+        "size_in_bytes": 5291
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudioclock.h",
+        "path_type": "hardlink",
+        "sha256": "ae7952a32e9c259cc6affe276e9790364ce44936b2fadb47c0283b4db1ea8924",
+        "sha256_in_prefix": "ae7952a32e9c259cc6affe276e9790364ce44936b2fadb47c0283b4db1ea8924",
+        "size_in_bytes": 3540
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiodecoder.h",
+        "path_type": "hardlink",
+        "sha256": "973527c8d6be3de4415a8133732b35ffa8cbdcdc875c6f848ab57541ea6a400d",
+        "sha256_in_prefix": "973527c8d6be3de4415a8133732b35ffa8cbdcdc875c6f848ab57541ea6a400d",
+        "size_in_bytes": 18355
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudioencoder.h",
+        "path_type": "hardlink",
+        "sha256": "9016779b549347659ff3d7fb21451a6e6aa585b2947d6e2e840f1d2bc86a1451",
+        "sha256_in_prefix": "9016779b549347659ff3d7fb21451a6e6aa585b2947d6e2e840f1d2bc86a1451",
+        "size_in_bytes": 14916
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiofilter.h",
+        "path_type": "hardlink",
+        "sha256": "7b8a764d0e1b247788bc5264bcca702d5062d7156674da947d10a2d90bb63be7",
+        "sha256_in_prefix": "7b8a764d0e1b247788bc5264bcca702d5062d7156674da947d10a2d90bb63be7",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudioiec61937.h",
+        "path_type": "hardlink",
+        "sha256": "c84759e0a85b77af5887d67229d45c8f45c96a06edc81ad491203abdde6ceed5",
+        "sha256_in_prefix": "c84759e0a85b77af5887d67229d45c8f45c96a06edc81ad491203abdde6ceed5",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiometa.h",
+        "path_type": "hardlink",
+        "sha256": "98e5a54d34f342bab0cda7783cdb2e405e85db65b3d81ec6066ab9441d15deb3",
+        "sha256_in_prefix": "98e5a54d34f342bab0cda7783cdb2e405e85db65b3d81ec6066ab9441d15deb3",
+        "size_in_bytes": 7896
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudioringbuffer.h",
+        "path_type": "hardlink",
+        "sha256": "f5a7824e6294bb61212fd961c7703b882386cf1ba1c80afd3ed967cfd619855a",
+        "sha256_in_prefix": "f5a7824e6294bb61212fd961c7703b882386cf1ba1c80afd3ed967cfd619855a",
+        "size_in_bytes": 15877
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiosink.h",
+        "path_type": "hardlink",
+        "sha256": "5878d28d92308b879c1db792d7cd9587baa640d175609a865ec1e594879d237a",
+        "sha256_in_prefix": "5878d28d92308b879c1db792d7cd9587baa640d175609a865ec1e594879d237a",
+        "size_in_bytes": 5127
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiosrc.h",
+        "path_type": "hardlink",
+        "sha256": "457513ccbb6e78d79525de5df835d78b1587d20841d6f857e9fddb8b320efbe7",
+        "sha256_in_prefix": "457513ccbb6e78d79525de5df835d78b1587d20841d6f857e9fddb8b320efbe7",
+        "size_in_bytes": 3497
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/gstaudiostreamalign.h",
+        "path_type": "hardlink",
+        "sha256": "ad3093c3c91921e1509bb3323469534135fed1d61881631e19805ce0591a8494",
+        "sha256_in_prefix": "ad3093c3c91921e1509bb3323469534135fed1d61881631e19805ce0591a8494",
+        "size_in_bytes": 4023
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/audio/streamvolume.h",
+        "path_type": "hardlink",
+        "sha256": "429eb429b2d16677a5e5ae33e32c46db807175eb48b917fce3531c9cc8160cdb",
+        "sha256_in_prefix": "429eb429b2d16677a5e5ae33e32c46db807175eb48b917fce3531c9cc8160cdb",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/fft-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "f196b3f71f4eb2cd936d29759b23b922d24c5a618e52e7cd135383c62614b81d",
+        "sha256_in_prefix": "f196b3f71f4eb2cd936d29759b23b922d24c5a618e52e7cd135383c62614b81d",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/fft.h",
+        "path_type": "hardlink",
+        "sha256": "94f100f3de5431ff6a5587b04f550bb10fb72c206be315ea26095d80948fd9e1",
+        "sha256_in_prefix": "94f100f3de5431ff6a5587b04f550bb10fb72c206be315ea26095d80948fd9e1",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/gstfft.h",
+        "path_type": "hardlink",
+        "sha256": "1e18a4c9c4209226fbc29b13851af47d3e4f2b13ac0c7e8344bb0d781436c57f",
+        "sha256_in_prefix": "1e18a4c9c4209226fbc29b13851af47d3e4f2b13ac0c7e8344bb0d781436c57f",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/gstfftf32.h",
+        "path_type": "hardlink",
+        "sha256": "d2faeb01e3c43e076ceea9c7cf8484db6999ead50d73091d406df8ea5f97065e",
+        "sha256_in_prefix": "d2faeb01e3c43e076ceea9c7cf8484db6999ead50d73091d406df8ea5f97065e",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/gstfftf64.h",
+        "path_type": "hardlink",
+        "sha256": "3bd2780885be841e6d65b3f1179fc1d4f26f1add0b3dfe8f979e39f186f83ebb",
+        "sha256_in_prefix": "3bd2780885be841e6d65b3f1179fc1d4f26f1add0b3dfe8f979e39f186f83ebb",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/gstffts16.h",
+        "path_type": "hardlink",
+        "sha256": "4371dfa0835f9f8f274173740b4fd224c4259444cb15674ff7dccfd0ea3c8fe9",
+        "sha256_in_prefix": "4371dfa0835f9f8f274173740b4fd224c4259444cb15674ff7dccfd0ea3c8fe9",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/fft/gstffts32.h",
+        "path_type": "hardlink",
+        "sha256": "c1543eae9a53376d5f20da5c55e925eb0405948020d01a208fda21cb8baa471c",
+        "sha256_in_prefix": "c1543eae9a53376d5f20da5c55e925eb0405948020d01a208fda21cb8baa471c",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/codec-utils.h",
+        "path_type": "hardlink",
+        "sha256": "3aad91c81139e273e896db7b4c6d44940eb27fe5e2eb1289913a2759047d3c19",
+        "sha256_in_prefix": "3aad91c81139e273e896db7b4c6d44940eb27fe5e2eb1289913a2759047d3c19",
+        "size_in_bytes": 6627
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/descriptions.h",
+        "path_type": "hardlink",
+        "sha256": "645e6988bb03ba0d56f049350c40f7b03b3f50fbe0a1f59e9ad8d8566f26db15",
+        "sha256_in_prefix": "645e6988bb03ba0d56f049350c40f7b03b3f50fbe0a1f59e9ad8d8566f26db15",
+        "size_in_bytes": 2176
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/encoding-profile.h",
+        "path_type": "hardlink",
+        "sha256": "4f3283e9c6ba757c2201d3bbc609b5a98ada038b65b3a7c0dda54b9fd8997a37",
+        "sha256_in_prefix": "4f3283e9c6ba757c2201d3bbc609b5a98ada038b65b3a7c0dda54b9fd8997a37",
+        "size_in_bytes": 10849
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/encoding-target.h",
+        "path_type": "hardlink",
+        "sha256": "7202b4481cad0ff0f98660f76bad56e14d4601ae7e32d3d2bd38f589afb782a6",
+        "sha256_in_prefix": "7202b4481cad0ff0f98660f76bad56e14d4601ae7e32d3d2bd38f589afb782a6",
+        "size_in_bytes": 6552
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/gstaudiovisualizer.h",
+        "path_type": "hardlink",
+        "sha256": "4efa35133d81fc50e8943c621c9f7d9f5e232d396a79f4bcfd7fe4a75a451654",
+        "sha256_in_prefix": "4efa35133d81fc50e8943c621c9f7d9f5e232d396a79f4bcfd7fe4a75a451654",
+        "size_in_bytes": 4474
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/gstdiscoverer.h",
+        "path_type": "hardlink",
+        "sha256": "ac08d486f4f465c8340cf8fd78042d5d46c5b1128391ee62309825e8f4137691",
+        "sha256_in_prefix": "ac08d486f4f465c8340cf8fd78042d5d46c5b1128391ee62309825e8f4137691",
+        "size_in_bytes": 15493
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/gstpluginsbaseversion.h",
+        "path_type": "hardlink",
+        "sha256": "ce80dee2c9b33ceae0cd482440b1f6dca858d7c254d8f3c94dcca32d2874f03c",
+        "sha256_in_prefix": "ce80dee2c9b33ceae0cd482440b1f6dca858d7c254d8f3c94dcca32d2874f03c",
+        "size_in_bytes": 2879
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/install-plugins.h",
+        "path_type": "hardlink",
+        "sha256": "97b98108606edac77c379335088a5171c166368d4a3c1b704a8e60ddda941676",
+        "sha256_in_prefix": "97b98108606edac77c379335088a5171c166368d4a3c1b704a8e60ddda941676",
+        "size_in_bytes": 6994
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/missing-plugins.h",
+        "path_type": "hardlink",
+        "sha256": "e264629511e3c427509ca04b30e723ac6d667c90e297e6620caf0a394cc07676",
+        "sha256_in_prefix": "e264629511e3c427509ca04b30e723ac6d667c90e297e6620caf0a394cc07676",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/pbutils-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "3c5fdfb2fdf87d27fd99bffd6c86b2dcf79140634cf884bd58782435a2e340b9",
+        "sha256_in_prefix": "3c5fdfb2fdf87d27fd99bffd6c86b2dcf79140634cf884bd58782435a2e340b9",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/pbutils-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "abf3a26665f57c0e8bb02731d3482d8d76d409de2abc67140f7b6935c8b52db7",
+        "sha256_in_prefix": "abf3a26665f57c0e8bb02731d3482d8d76d409de2abc67140f7b6935c8b52db7",
+        "size_in_bytes": 1462
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/pbutils/pbutils.h",
+        "path_type": "hardlink",
+        "sha256": "efc52fd34866e9bd4d3caa60d13ba462d1c2d4578f9c099c8e29470b99238be6",
+        "sha256_in_prefix": "efc52fd34866e9bd4d3caa60d13ba462d1c2d4578f9c099c8e29470b99238be6",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/riff/riff-ids.h",
+        "path_type": "hardlink",
+        "sha256": "e942c228babd1cc93324b677ffd089d4499f56ccab4a708f6017014cf98f29c0",
+        "sha256_in_prefix": "e942c228babd1cc93324b677ffd089d4499f56ccab4a708f6017014cf98f29c0",
+        "size_in_bytes": 25608
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/riff/riff-media.h",
+        "path_type": "hardlink",
+        "sha256": "86f755404045b2b5b6b9b2a99fae6a208bc60b09bb172e509d179fbb4f330310",
+        "sha256_in_prefix": "86f755404045b2b5b6b9b2a99fae6a208bc60b09bb172e509d179fbb4f330310",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/riff/riff-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "eb32ab1fecacc92d54d3a5bf1844359a53eee0b306d65c4bb978318d65de4c79",
+        "sha256_in_prefix": "eb32ab1fecacc92d54d3a5bf1844359a53eee0b306d65c4bb978318d65de4c79",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/riff/riff-read.h",
+        "path_type": "hardlink",
+        "sha256": "3e4b381bc5c1b4208ac15b1a1042436bed418089a1eb787aeaef719a082a24a5",
+        "sha256_in_prefix": "3e4b381bc5c1b4208ac15b1a1042436bed418089a1eb787aeaef719a082a24a5",
+        "size_in_bytes": 3416
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/riff/riff.h",
+        "path_type": "hardlink",
+        "sha256": "1d2598afe0430e8454e4b5f15c398acb067a74931a3f9cc44d93510588c75f6e",
+        "sha256_in_prefix": "1d2598afe0430e8454e4b5f15c398acb067a74931a3f9cc44d93510588c75f6e",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtcpbuffer.h",
+        "path_type": "hardlink",
+        "sha256": "c91ef648c58999bc952c6f9995e9b025752a4ab3bbd0afae7e0375df343800e6",
+        "sha256_in_prefix": "c91ef648c58999bc952c6f9995e9b025752a4ab3bbd0afae7e0375df343800e6",
+        "size_in_bytes": 21985
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtp-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "1ec091eb5460674e2b1dfb733f87a7678b64d6e5e4ddabd272e0f1de2d86061a",
+        "sha256_in_prefix": "1ec091eb5460674e2b1dfb733f87a7678b64d6e5e4ddabd272e0f1de2d86061a",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpbaseaudiopayload.h",
+        "path_type": "hardlink",
+        "sha256": "72e9e21072ceacd2f14ed0442fc388d73e197bf8a81e5706d787193d06e53d83",
+        "sha256_in_prefix": "72e9e21072ceacd2f14ed0442fc388d73e197bf8a81e5706d787193d06e53d83",
+        "size_in_bytes": 4351
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpbasedepayload.h",
+        "path_type": "hardlink",
+        "sha256": "6bd87433c8acaf9d770ea8ae2e4e3ae0e90ded9411661302db6ba1e1cd46eadb",
+        "sha256_in_prefix": "6bd87433c8acaf9d770ea8ae2e4e3ae0e90ded9411661302db6ba1e1cd46eadb",
+        "size_in_bytes": 5324
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpbasepayload.h",
+        "path_type": "hardlink",
+        "sha256": "892072e94fd9f7eeef038e2eda4cd6a3545919c7a4156696c12515826e53071f",
+        "sha256_in_prefix": "892072e94fd9f7eeef038e2eda4cd6a3545919c7a4156696c12515826e53071f",
+        "size_in_bytes": 6808
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpbuffer.h",
+        "path_type": "hardlink",
+        "sha256": "c203368dcece9162abb3eeb272e39a8dfd0cf1b92689048ba041b5c61e531e45",
+        "sha256_in_prefix": "c203368dcece9162abb3eeb272e39a8dfd0cf1b92689048ba041b5c61e531e45",
+        "size_in_bytes": 10125
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpdefs.h",
+        "path_type": "hardlink",
+        "sha256": "ae1774e6caca5908be898634d8eeef290fb59f057b161958b9abaf385d7a138e",
+        "sha256_in_prefix": "ae1774e6caca5908be898634d8eeef290fb59f057b161958b9abaf385d7a138e",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtphdrext.h",
+        "path_type": "hardlink",
+        "sha256": "4561ad9bee7c55e6f2d4458f21cb0eff86993785acb6a6e1c4930b868caa97d0",
+        "sha256_in_prefix": "4561ad9bee7c55e6f2d4458f21cb0eff86993785acb6a6e1c4930b868caa97d0",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtpmeta.h",
+        "path_type": "hardlink",
+        "sha256": "9cc0f6bd5d1aec811138c87f0f4e6e6b8366bd1ba20de64f9cbd9b00479b0bbc",
+        "sha256_in_prefix": "9cc0f6bd5d1aec811138c87f0f4e6e6b8366bd1ba20de64f9cbd9b00479b0bbc",
+        "size_in_bytes": 2535
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/gstrtppayloads.h",
+        "path_type": "hardlink",
+        "sha256": "680a15855605a549f5defa1155bcc21036bf370d29f6959a6df863f3946a8c59",
+        "sha256_in_prefix": "680a15855605a549f5defa1155bcc21036bf370d29f6959a6df863f3946a8c59",
+        "size_in_bytes": 6539
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/rtp-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "7cb9dc6ad72b76cbc4e7b5519856e0eed0d24761ef875398410e5a21ddb3e21e",
+        "sha256_in_prefix": "7cb9dc6ad72b76cbc4e7b5519856e0eed0d24761ef875398410e5a21ddb3e21e",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtp/rtp.h",
+        "path_type": "hardlink",
+        "sha256": "9e8420e5aa9e3522476a8007c518ac546516d7f9ff355a895814cb14a12611f1",
+        "sha256_in_prefix": "9e8420e5aa9e3522476a8007c518ac546516d7f9ff355a895814cb14a12611f1",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtsp-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "e0d7cd4796cbc2846a75c09574f04e054cfb54b1c8588b23c419afa47cff0f28",
+        "sha256_in_prefix": "e0d7cd4796cbc2846a75c09574f04e054cfb54b1c8588b23c419afa47cff0f28",
+        "size_in_bytes": 2369
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtsp.h",
+        "path_type": "hardlink",
+        "sha256": "4d2c6fe75f8441f456cbc51636f9bdac4007403289ddff9cd53a7609f46529e4",
+        "sha256_in_prefix": "4d2c6fe75f8441f456cbc51636f9bdac4007403289ddff9cd53a7609f46529e4",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtspconnection.h",
+        "path_type": "hardlink",
+        "sha256": "3677e65ab3ec9dc5d1df0dd1947a7340e643b2361022bc8a70b5f6736abeee8a",
+        "sha256_in_prefix": "3677e65ab3ec9dc5d1df0dd1947a7340e643b2361022bc8a70b5f6736abeee8a",
+        "size_in_bytes": 16539
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtspdefs.h",
+        "path_type": "hardlink",
+        "sha256": "9ff2e8d72b83d9b0719250d3da167e6d00f06112b4cd06ce90fde800bc546337",
+        "sha256_in_prefix": "9ff2e8d72b83d9b0719250d3da167e6d00f06112b4cd06ce90fde800bc546337",
+        "size_in_bytes": 18881
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtspextension.h",
+        "path_type": "hardlink",
+        "sha256": "9ed9053e72801dd67e08b08ca7656e0729ac94f54863b72c21283c5cc6ac75c0",
+        "sha256_in_prefix": "9ed9053e72801dd67e08b08ca7656e0729ac94f54863b72c21283c5cc6ac75c0",
+        "size_in_bytes": 4498
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtspmessage.h",
+        "path_type": "hardlink",
+        "sha256": "f41d2f3818a775807f45e889a7821cce0bd7ee94e3b77a7ccb54decad4f42167",
+        "sha256_in_prefix": "f41d2f3818a775807f45e889a7821cce0bd7ee94e3b77a7ccb54decad4f42167",
+        "size_in_bytes": 12505
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtsprange.h",
+        "path_type": "hardlink",
+        "sha256": "b7c242fb8da5857f7805effdd5b3b994b1e0db3f7c6b359f5dd3340b1afffb39",
+        "sha256_in_prefix": "b7c242fb8da5857f7805effdd5b3b994b1e0db3f7c6b359f5dd3340b1afffb39",
+        "size_in_bytes": 4999
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtsptransport.h",
+        "path_type": "hardlink",
+        "sha256": "c3e350fa35098e17c3c7a32cfa534f41dc9710b8a9bac6b4286113dc8d63f01f",
+        "sha256_in_prefix": "c3e350fa35098e17c3c7a32cfa534f41dc9710b8a9bac6b4286113dc8d63f01f",
+        "size_in_bytes": 6879
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/gstrtspurl.h",
+        "path_type": "hardlink",
+        "sha256": "d3be1ecf44e4b1381ba45cfe6cec3e32d9a1c0a1b3775ea01127510cd6e1cadd",
+        "sha256_in_prefix": "d3be1ecf44e4b1381ba45cfe6cec3e32d9a1c0a1b3775ea01127510cd6e1cadd",
+        "size_in_bytes": 4070
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/rtsp-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "cdb1c200f7fae0406219f1bfa0cf629b85776565fccc5bc222141832fbf5fa4d",
+        "sha256_in_prefix": "cdb1c200f7fae0406219f1bfa0cf629b85776565fccc5bc222141832fbf5fa4d",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/rtsp/rtsp.h",
+        "path_type": "hardlink",
+        "sha256": "d10fc296ebbb417482d3494cd6c92bd48034b18afad8335ab3bee9a9e9c7a7cb",
+        "sha256_in_prefix": "d10fc296ebbb417482d3494cd6c92bd48034b18afad8335ab3bee9a9e9c7a7cb",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/sdp/gstmikey.h",
+        "path_type": "hardlink",
+        "sha256": "9aa7770ae4d079140f23e8a1f83200acc1bc5eb3250dd9a41225252d430d6e71",
+        "sha256_in_prefix": "9aa7770ae4d079140f23e8a1f83200acc1bc5eb3250dd9a41225252d430d6e71",
+        "size_in_bytes": 22484
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/sdp/gstsdp.h",
+        "path_type": "hardlink",
+        "sha256": "3a9370c044afb8bc4f146d7c8f33f227230e9e18165ae3358dda2ed70765d5b5",
+        "sha256_in_prefix": "3a9370c044afb8bc4f146d7c8f33f227230e9e18165ae3358dda2ed70765d5b5",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/sdp/gstsdpmessage.h",
+        "path_type": "hardlink",
+        "sha256": "ed02c2cb62efcaf38381af27ca594f9cdd5020a92b5980d6257753b27acb3c92",
+        "sha256_in_prefix": "ed02c2cb62efcaf38381af27ca594f9cdd5020a92b5980d6257753b27acb3c92",
+        "size_in_bytes": 27139
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/sdp/sdp-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "31d46d9b8f65c3f8261f25a3e277455818838dd8512a3600a1b18c19f0c2f649",
+        "sha256_in_prefix": "31d46d9b8f65c3f8261f25a3e277455818838dd8512a3600a1b18c19f0c2f649",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/sdp/sdp.h",
+        "path_type": "hardlink",
+        "sha256": "dd1a2b952bdb587dc3d724efdb517e1f0d33062074e8c855ebb2490250bd8d8d",
+        "sha256_in_prefix": "dd1a2b952bdb587dc3d724efdb517e1f0d33062074e8c855ebb2490250bd8d8d",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/gsttagdemux.h",
+        "path_type": "hardlink",
+        "sha256": "5fbbf4faab204b3e36f44135cc3b20794e97c2dd72ce93afbf3c560bf8c52e0e",
+        "sha256_in_prefix": "5fbbf4faab204b3e36f44135cc3b20794e97c2dd72ce93afbf3c560bf8c52e0e",
+        "size_in_bytes": 5430
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/gsttagmux.h",
+        "path_type": "hardlink",
+        "sha256": "310b81301f84e375fa4a6f8279d5dd3e2d5911d502b9d7214bb7e4233e808ae3",
+        "sha256_in_prefix": "310b81301f84e375fa4a6f8279d5dd3e2d5911d502b9d7214bb7e4233e808ae3",
+        "size_in_bytes": 2715
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/tag-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "d1b35ca736379962e85a6ae50d817a8d08b19c3a3a7bae6e3867e6c3909dc552",
+        "sha256_in_prefix": "d1b35ca736379962e85a6ae50d817a8d08b19c3a3a7bae6e3867e6c3909dc552",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/tag-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "85873b0e66b82c175f60e497755c850e7f29138c3a93a0805f90ef82a38a4e1b",
+        "sha256_in_prefix": "85873b0e66b82c175f60e497755c850e7f29138c3a93a0805f90ef82a38a4e1b",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/tag.h",
+        "path_type": "hardlink",
+        "sha256": "f3e15712d424227adcab9264649991970207816471017334f3cdb5a88ca06e1c",
+        "sha256_in_prefix": "f3e15712d424227adcab9264649991970207816471017334f3cdb5a88ca06e1c",
+        "size_in_bytes": 23077
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/tag/xmpwriter.h",
+        "path_type": "hardlink",
+        "sha256": "b8fa4c6ec7d0e3c2c6fe1817f63592f9d9e882664a7fefcaec7b9e08765733fc",
+        "sha256_in_prefix": "b8fa4c6ec7d0e3c2c6fe1817f63592f9d9e882664a7fefcaec7b9e08765733fc",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/colorbalance.h",
+        "path_type": "hardlink",
+        "sha256": "de22ea3fb0e1c468ee64e3847f0f93ff2fd9f43c6de11dfa323693721e1dd5a2",
+        "sha256_in_prefix": "de22ea3fb0e1c468ee64e3847f0f93ff2fd9f43c6de11dfa323693721e1dd5a2",
+        "size_in_bytes": 4315
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/colorbalancechannel.h",
+        "path_type": "hardlink",
+        "sha256": "aa719dfa1bbac97a6d95c3f418c497fe84539902d68592ec3be54c1e0d0423f5",
+        "sha256_in_prefix": "aa719dfa1bbac97a6d95c3f418c497fe84539902d68592ec3be54c1e0d0423f5",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideoaffinetransformationmeta.h",
+        "path_type": "hardlink",
+        "sha256": "31be0c8855eda0823e86891b317d54b5bbb24915148b109e026b73b43e664ec5",
+        "sha256_in_prefix": "31be0c8855eda0823e86891b317d54b5bbb24915148b109e026b73b43e664ec5",
+        "size_in_bytes": 3370
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideoaggregator.h",
+        "path_type": "hardlink",
+        "sha256": "9535a10093267842c367b1a15df02ec016f4e8fee124772b59d1115da4ef341a",
+        "sha256_in_prefix": "9535a10093267842c367b1a15df02ec016f4e8fee124772b59d1115da4ef341a",
+        "size_in_bytes": 10286
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideodecoder.h",
+        "path_type": "hardlink",
+        "sha256": "f3ff3247a6704be4486dd66bd2cfe83b7b8361fd8ad677007966b9824ec74519",
+        "sha256_in_prefix": "f3ff3247a6704be4486dd66bd2cfe83b7b8361fd8ad677007966b9824ec74519",
+        "size_in_bytes": 18540
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideoencoder.h",
+        "path_type": "hardlink",
+        "sha256": "d2edade86e1396f75bf307e535e85e995cfa07031700b237ec9a5f47c989c223",
+        "sha256_in_prefix": "d2edade86e1396f75bf307e535e85e995cfa07031700b237ec9a5f47c989c223",
+        "size_in_bytes": 14800
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideofilter.h",
+        "path_type": "hardlink",
+        "sha256": "2f2746400f742e01670f7c0d864cbd1d15e27e5341134f5911ce9df031785501",
+        "sha256_in_prefix": "2f2746400f742e01670f7c0d864cbd1d15e27e5341134f5911ce9df031785501",
+        "size_in_bytes": 3012
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideometa.h",
+        "path_type": "hardlink",
+        "sha256": "16e2ebf0d7de0a1e2ba6acef9090471a0abb1d826763e57d393766e25388ee04",
+        "sha256_in_prefix": "16e2ebf0d7de0a1e2ba6acef9090471a0abb1d826763e57d393766e25388ee04",
+        "size_in_bytes": 16147
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideopool.h",
+        "path_type": "hardlink",
+        "sha256": "efe200be4c5a290c00393375218a5779088060f8a7d0b9a11f8fab3ddf10eb3f",
+        "sha256_in_prefix": "efe200be4c5a290c00393375218a5779088060f8a7d0b9a11f8fab3ddf10eb3f",
+        "size_in_bytes": 2894
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideosink.h",
+        "path_type": "hardlink",
+        "sha256": "30d57224455ee7bfa323c5b1bda683b09adbac83dd495644c254e2232e9c13f5",
+        "sha256_in_prefix": "30d57224455ee7bfa323c5b1bda683b09adbac83dd495644c254e2232e9c13f5",
+        "size_in_bytes": 4183
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideotimecode.h",
+        "path_type": "hardlink",
+        "sha256": "223e3e2974e73d32bc72758c12a1f3fc693572bb4c8b75c3cd9c276c3cc603d1",
+        "sha256_in_prefix": "223e3e2974e73d32bc72758c12a1f3fc693572bb4c8b75c3cd9c276c3cc603d1",
+        "size_in_bytes": 10914
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/gstvideoutils.h",
+        "path_type": "hardlink",
+        "sha256": "0362c50757c766f1962f3a244700738d18cf9bcd87760a7de074b981bda05bc8",
+        "sha256_in_prefix": "0362c50757c766f1962f3a244700738d18cf9bcd87760a7de074b981bda05bc8",
+        "size_in_bytes": 10312
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/navigation.h",
+        "path_type": "hardlink",
+        "sha256": "b5519e0cc9d8ddb8ed7e57535b04f9f25db526a55b1179fbad6da808b320884e",
+        "sha256_in_prefix": "b5519e0cc9d8ddb8ed7e57535b04f9f25db526a55b1179fbad6da808b320884e",
+        "size_in_bytes": 13803
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-anc.h",
+        "path_type": "hardlink",
+        "sha256": "45cc16b549ef3d72f272fe478a32bccc6df8b046c35de280a67a76fdce6c8859",
+        "sha256_in_prefix": "45cc16b549ef3d72f272fe478a32bccc6df8b046c35de280a67a76fdce6c8859",
+        "size_in_bytes": 18390
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-blend.h",
+        "path_type": "hardlink",
+        "sha256": "70b5f422b45d94c9e77cdae825c87ce22f601242cb9a846aef6a86c2d2efd53e",
+        "sha256_in_prefix": "70b5f422b45d94c9e77cdae825c87ce22f601242cb9a846aef6a86c2d2efd53e",
+        "size_in_bytes": 1638
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-chroma.h",
+        "path_type": "hardlink",
+        "sha256": "89b9c23e4d5b4beb761aa2be31128a51ba0bc1224cfb0921bc52438c90436090",
+        "sha256_in_prefix": "89b9c23e4d5b4beb761aa2be31128a51ba0bc1224cfb0921bc52438c90436090",
+        "size_in_bytes": 4355
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-color.h",
+        "path_type": "hardlink",
+        "sha256": "2b2db44b64e8058312402bdd9c6ae39ca7692e2efd50a04e6cfdc2d081a02658",
+        "sha256_in_prefix": "2b2db44b64e8058312402bdd9c6ae39ca7692e2efd50a04e6cfdc2d081a02658",
+        "size_in_bytes": 12005
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-converter.h",
+        "path_type": "hardlink",
+        "sha256": "a51317166a692d3b105339b0cbf1de49fbec420d8ee6c03a851aecce7516cc03",
+        "sha256_in_prefix": "a51317166a692d3b105339b0cbf1de49fbec420d8ee6c03a851aecce7516cc03",
+        "size_in_bytes": 9813
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-dither.h",
+        "path_type": "hardlink",
+        "sha256": "7d5eb70f1870dce6a94ab580d3a80b8823a7e2c838d9db20212bec9e09820f99",
+        "sha256_in_prefix": "7d5eb70f1870dce6a94ab580d3a80b8823a7e2c838d9db20212bec9e09820f99",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-enumtypes.h",
+        "path_type": "hardlink",
+        "sha256": "f99311c7203197e0fbe0f4fdb160a9ecb4b937fe3493472808d72690260f95a1",
+        "sha256_in_prefix": "f99311c7203197e0fbe0f4fdb160a9ecb4b937fe3493472808d72690260f95a1",
+        "size_in_bytes": 7357
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-event.h",
+        "path_type": "hardlink",
+        "sha256": "0af27f96e8f6e6494b2b062359ac4e13a310cf655c4bc60d808c1e8b6e44010f",
+        "sha256_in_prefix": "0af27f96e8f6e6494b2b062359ac4e13a310cf655c4bc60d808c1e8b6e44010f",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-format.h",
+        "path_type": "hardlink",
+        "sha256": "dc17928e22abdc334d774932e05906e9e3eb41cb5e8d49ebd5d4883cf31d3053",
+        "sha256_in_prefix": "dc17928e22abdc334d774932e05906e9e3eb41cb5e8d49ebd5d4883cf31d3053",
+        "size_in_bytes": 31598
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-frame.h",
+        "path_type": "hardlink",
+        "sha256": "7298bcd22dc3c1e0878969933b1d7335feec02dcd0da93d3d3a230a6966df9d2",
+        "sha256_in_prefix": "7298bcd22dc3c1e0878969933b1d7335feec02dcd0da93d3d3a230a6966df9d2",
+        "size_in_bytes": 12279
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-hdr.h",
+        "path_type": "hardlink",
+        "sha256": "b18664da98f1ca1a0fa3c31fe2427e65558b51b44faaab32638d0f75c3b95c26",
+        "sha256_in_prefix": "b18664da98f1ca1a0fa3c31fe2427e65558b51b44faaab32638d0f75c3b95c26",
+        "size_in_bytes": 5170
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-info.h",
+        "path_type": "hardlink",
+        "sha256": "61a61ad52b656a7557b2abf3ce8f204067196172acde45c62010f1a35023d7ad",
+        "sha256_in_prefix": "61a61ad52b656a7557b2abf3ce8f204067196172acde45c62010f1a35023d7ad",
+        "size_in_bytes": 21377
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-multiview.h",
+        "path_type": "hardlink",
+        "sha256": "ee98514e1ed6d138989ba6cf6000349a49c0c0b466451b1bd9575437e8573995",
+        "sha256_in_prefix": "ee98514e1ed6d138989ba6cf6000349a49c0c0b466451b1bd9575437e8573995",
+        "size_in_bytes": 3435
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-overlay-composition.h",
+        "path_type": "hardlink",
+        "sha256": "d2766cdc3b469b4e42d0d2d4cf96a986d7caa4803dfbce9df75d2f3af100a0c8",
+        "sha256_in_prefix": "d2766cdc3b469b4e42d0d2d4cf96a986d7caa4803dfbce9df75d2f3af100a0c8",
+        "size_in_bytes": 12689
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-prelude.h",
+        "path_type": "hardlink",
+        "sha256": "664788ad1c22d6e95ad5b8cad318398ba7cbbfe10dc600f6b3775f15fc14bf6c",
+        "sha256_in_prefix": "664788ad1c22d6e95ad5b8cad318398ba7cbbfe10dc600f6b3775f15fc14bf6c",
+        "size_in_bytes": 1417
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-resampler.h",
+        "path_type": "hardlink",
+        "sha256": "fabcc73a33a30b5adf61cddc62fc36d48ba50c9c693123f81242b0d1149c9dd2",
+        "sha256_in_prefix": "fabcc73a33a30b5adf61cddc62fc36d48ba50c9c693123f81242b0d1149c9dd2",
+        "size_in_bytes": 5665
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-scaler.h",
+        "path_type": "hardlink",
+        "sha256": "8cad1eeb59c9cdc8ca108c682a12588343b7496184f062a019ba03d130205bbd",
+        "sha256_in_prefix": "8cad1eeb59c9cdc8ca108c682a12588343b7496184f062a019ba03d130205bbd",
+        "size_in_bytes": 4223
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video-tile.h",
+        "path_type": "hardlink",
+        "sha256": "5d8d894afbfd1d1dae120d550505cc4a92e0584e24a595e2f2bd3aca4bde68fc",
+        "sha256_in_prefix": "5d8d894afbfd1d1dae120d550505cc4a92e0584e24a595e2f2bd3aca4bde68fc",
+        "size_in_bytes": 4020
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/video.h",
+        "path_type": "hardlink",
+        "sha256": "cb747dbfe023224eb262dfae8f49904e44843da19364a183e2d2bd1d43b3b913",
+        "sha256_in_prefix": "cb747dbfe023224eb262dfae8f49904e44843da19364a183e2d2bd1d43b3b913",
+        "size_in_bytes": 6523
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/videodirection.h",
+        "path_type": "hardlink",
+        "sha256": "383a0f46e18a8e1f16ee8b76ca80d10db2c3377df20568d4b768137891bd637e",
+        "sha256_in_prefix": "383a0f46e18a8e1f16ee8b76ca80d10db2c3377df20568d4b768137891bd637e",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/videoorientation.h",
+        "path_type": "hardlink",
+        "sha256": "360bd78506af367eea749e89a71671c7d146a2aa0895e9f3490ac21fb8960bd8",
+        "sha256_in_prefix": "360bd78506af367eea749e89a71671c7d146a2aa0895e9f3490ac21fb8960bd8",
+        "size_in_bytes": 4365
+      },
+      {
+        "_path": "Library/include/gstreamer-1.0/gst/video/videooverlay.h",
+        "path_type": "hardlink",
+        "sha256": "818c0cc81ed3241e8a825be63582354b18ec4da896285279fdf930274d64aa50",
+        "sha256_in_prefix": "818c0cc81ed3241e8a825be63582354b18ec4da896285279fdf930274d64aa50",
+        "size_in_bytes": 4557
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstAllocators-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "ab54ebe907f3a54184532759009bd792fb564da29082e5b6b234c81fb35879ec",
+        "sha256_in_prefix": "ab54ebe907f3a54184532759009bd792fb564da29082e5b6b234c81fb35879ec",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstApp-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "b53b7ce48cae8023270ffb69543b384b607f1905f1921742f559f2cfe3d0fa9a",
+        "sha256_in_prefix": "b53b7ce48cae8023270ffb69543b384b607f1905f1921742f559f2cfe3d0fa9a",
+        "size_in_bytes": 7256
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstAudio-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "ec69f979c3a0ec0cb6bb5f2f2a79eddba6bf403916e7685e35d823fe96d5ffba",
+        "sha256_in_prefix": "ec69f979c3a0ec0cb6bb5f2f2a79eddba6bf403916e7685e35d823fe96d5ffba",
+        "size_in_bytes": 59168
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstPbutils-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "9c5181fd4bcade76f4065b120b1190d2605a012c0c5157a1efae16517c87fcbd",
+        "sha256_in_prefix": "9c5181fd4bcade76f4065b120b1190d2605a012c0c5157a1efae16517c87fcbd",
+        "size_in_bytes": 26824
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstRtp-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "0ace10d9d5f53e7806ee4848139d58c27e1a8f337b9531c1719cfed039f3ffd1",
+        "sha256_in_prefix": "0ace10d9d5f53e7806ee4848139d58c27e1a8f337b9531c1719cfed039f3ffd1",
+        "size_in_bytes": 35380
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstRtsp-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "7eae8ca9db34858d6e5808f4bbdbf57c2fb70e2c4bf21c9c6caba0e5eed3cdbe",
+        "sha256_in_prefix": "7eae8ca9db34858d6e5808f4bbdbf57c2fb70e2c4bf21c9c6caba0e5eed3cdbe",
+        "size_in_bytes": 36920
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstSdp-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "c41f94aa471160aab036122ec5f35b9c5967f3b69e243201a52777872eaa5e60",
+        "sha256_in_prefix": "c41f94aa471160aab036122ec5f35b9c5967f3b69e243201a52777872eaa5e60",
+        "size_in_bytes": 14192
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstTag-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "d888633f4f4506629f55963a83697d1dbdaa4788eba7283778d7ca4e54061c01",
+        "sha256_in_prefix": "d888633f4f4506629f55963a83697d1dbdaa4788eba7283778d7ca4e54061c01",
+        "size_in_bytes": 14964
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/GstVideo-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "6550e2db293e5ceed77e20c5c19c9e838297e05faefd193923a9c282e22b4b9d",
+        "sha256_in_prefix": "6550e2db293e5ceed77e20c5c19c9e838297e05faefd193923a9c282e22b4b9d",
+        "size_in_bytes": 103088
+      },
+      {
+        "_path": "Library/lib/gstallocators-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "17d430a7845448a9213fb8a13f783a641beb754a9c3c05af5446f95835a7dd39",
+        "sha256_in_prefix": "17d430a7845448a9213fb8a13f783a641beb754a9c3c05af5446f95835a7dd39",
+        "size_in_bytes": 5400
+      },
+      {
+        "_path": "Library/lib/gstapp-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "89614b20a952e4fdf1c8f6ff02b1b0dd9b204246b72bb3fe58ac44bb3d3d7e21",
+        "sha256_in_prefix": "89614b20a952e4fdf1c8f6ff02b1b0dd9b204246b72bb3fe58ac44bb3d3d7e21",
+        "size_in_bytes": 12216
+      },
+      {
+        "_path": "Library/lib/gstaudio-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "399b39548aebfd1f15c2c9d9cb2b17e9f3b9ddd775ddbbc23b1fd36ee82f3693",
+        "sha256_in_prefix": "399b39548aebfd1f15c2c9d9cb2b17e9f3b9ddd775ddbbc23b1fd36ee82f3693",
+        "size_in_bytes": 74212
+      },
+      {
+        "_path": "Library/lib/gstfft-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "50dcca7300212ded897ea340db805e860ba3728246adba526d0433581dbb8107",
+        "sha256_in_prefix": "50dcca7300212ded897ea340db805e860ba3728246adba526d0433581dbb8107",
+        "size_in_bytes": 6272
+      },
+      {
+        "_path": "Library/lib/gstpbutils-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "76eec0deaa6dca51af4360b3bb1779072ae66795c6006acb714735b82147b66f",
+        "sha256_in_prefix": "76eec0deaa6dca51af4360b3bb1779072ae66795c6006acb714735b82147b66f",
+        "size_in_bytes": 57646
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstadder.dll",
+        "path_type": "hardlink",
+        "sha256": "b8606bf29cde85616bb99ff9083455b646523f46796dc9d3517c49ca0be539a4",
+        "sha256_in_prefix": "b8606bf29cde85616bb99ff9083455b646523f46796dc9d3517c49ca0be539a4",
+        "size_in_bytes": 43520
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstadder.lib",
+        "path_type": "hardlink",
+        "sha256": "3adbdb356f4b83698ce03239592dc65055b89840389f51e28c870d97b1b18304",
+        "sha256_in_prefix": "3adbdb356f4b83698ce03239592dc65055b89840389f51e28c870d97b1b18304",
+        "size_in_bytes": 2052
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstapp.dll",
+        "path_type": "hardlink",
+        "sha256": "96853a24f0fb1bb6a03bcb514ea1dfab317039b1382761d181cff862035545ec",
+        "sha256_in_prefix": "96853a24f0fb1bb6a03bcb514ea1dfab317039b1382761d181cff862035545ec",
+        "size_in_bytes": 9728
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstapp.lib",
+        "path_type": "hardlink",
+        "sha256": "522f079814b561b1cf3c590ba5248d3186ed424e10aadaa06090c43ad54aa4af",
+        "sha256_in_prefix": "522f079814b561b1cf3c590ba5248d3186ed424e10aadaa06090c43ad54aa4af",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudioconvert.dll",
+        "path_type": "hardlink",
+        "sha256": "d8099e2265ba31703ebeee5db03b3485a3c2c63e24ce19966893b2baf325e7b4",
+        "sha256_in_prefix": "d8099e2265ba31703ebeee5db03b3485a3c2c63e24ce19966893b2baf325e7b4",
+        "size_in_bytes": 25088
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudioconvert.lib",
+        "path_type": "hardlink",
+        "sha256": "f8b42d7cc296f2ec6e8bd8d5a2d247e576f809835d4ad7900b3842684b346af5",
+        "sha256_in_prefix": "f8b42d7cc296f2ec6e8bd8d5a2d247e576f809835d4ad7900b3842684b346af5",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiomixer.dll",
+        "path_type": "hardlink",
+        "sha256": "566f1dd3fb7a2bdacb26b23212b7ebca53e7138311963ef38adcc472b76a382e",
+        "sha256_in_prefix": "566f1dd3fb7a2bdacb26b23212b7ebca53e7138311963ef38adcc472b76a382e",
+        "size_in_bytes": 36352
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiomixer.lib",
+        "path_type": "hardlink",
+        "sha256": "0ac338ce279b7e45aebfa797fb19431196d436d1cbccd19957e05634cf5957a3",
+        "sha256_in_prefix": "0ac338ce279b7e45aebfa797fb19431196d436d1cbccd19957e05634cf5957a3",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiorate.dll",
+        "path_type": "hardlink",
+        "sha256": "15512e796aacb947af19ba505952b4036c1e2227e47c53fe3e0e3e5343630939",
+        "sha256_in_prefix": "15512e796aacb947af19ba505952b4036c1e2227e47c53fe3e0e3e5343630939",
+        "size_in_bytes": 22528
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiorate.lib",
+        "path_type": "hardlink",
+        "sha256": "3f451a9c415f146aaec52a66dc348448fd86f6664d91bda9eb27e6febe0c43d7",
+        "sha256_in_prefix": "3f451a9c415f146aaec52a66dc348448fd86f6664d91bda9eb27e6febe0c43d7",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudioresample.dll",
+        "path_type": "hardlink",
+        "sha256": "6cf77df0554b43bf76657a1c0dcd009d5687c5e2e16a1fdc21001c2f0bc029dc",
+        "sha256_in_prefix": "6cf77df0554b43bf76657a1c0dcd009d5687c5e2e16a1fdc21001c2f0bc029dc",
+        "size_in_bytes": 30208
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudioresample.lib",
+        "path_type": "hardlink",
+        "sha256": "6985a9e33c250032354391681c953575d100ca4754959c4145b592554f671c3f",
+        "sha256_in_prefix": "6985a9e33c250032354391681c953575d100ca4754959c4145b592554f671c3f",
+        "size_in_bytes": 2318
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiotestsrc.dll",
+        "path_type": "hardlink",
+        "sha256": "d27cf0712c927959a008baa24eb511f3d2bdce7a38b71f2f392a72d151520fe9",
+        "sha256_in_prefix": "d27cf0712c927959a008baa24eb511f3d2bdce7a38b71f2f392a72d151520fe9",
+        "size_in_bytes": 60928
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstaudiotestsrc.lib",
+        "path_type": "hardlink",
+        "sha256": "0a4f65123b6aadd6a8a96e385f8eca20ccfd7307c70cc5da4de33a2cfa9b9d90",
+        "sha256_in_prefix": "0a4f65123b6aadd6a8a96e385f8eca20ccfd7307c70cc5da4de33a2cfa9b9d90",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstcompositor.dll",
+        "path_type": "hardlink",
+        "sha256": "d28551a192974b89e4e7498a913d1e993e7f30f33bf6b16c68ca57cb6465bdec",
+        "sha256_in_prefix": "d28551a192974b89e4e7498a913d1e993e7f30f33bf6b16c68ca57cb6465bdec",
+        "size_in_bytes": 64000
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstcompositor.lib",
+        "path_type": "hardlink",
+        "sha256": "c8a1b0aa1e72d35d5c521aa439d5918bcec3c81be96752aaa760a4a99614f0b2",
+        "sha256_in_prefix": "c8a1b0aa1e72d35d5c521aa439d5918bcec3c81be96752aaa760a4a99614f0b2",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstencoding.dll",
+        "path_type": "hardlink",
+        "sha256": "0c8b1bb2b51a1f77bdc6e65b591cf23e6925617f0f2abf2ec7512ae8fbc9d9e4",
+        "sha256_in_prefix": "0c8b1bb2b51a1f77bdc6e65b591cf23e6925617f0f2abf2ec7512ae8fbc9d9e4",
+        "size_in_bytes": 72192
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstencoding.lib",
+        "path_type": "hardlink",
+        "sha256": "0c72ec1833a99949e633ec6a8160db3f138cd943fb553fb8963738cbbc6f7927",
+        "sha256_in_prefix": "0c72ec1833a99949e633ec6a8160db3f138cd943fb553fb8963738cbbc6f7927",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstgio.dll",
+        "path_type": "hardlink",
+        "sha256": "ae348faf49a2b88832574d348109f0d1db8e2d618091c4139a6b67b999e4c5af",
+        "sha256_in_prefix": "ae348faf49a2b88832574d348109f0d1db8e2d618091c4139a6b67b999e4c5af",
+        "size_in_bytes": 43520
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstgio.lib",
+        "path_type": "hardlink",
+        "sha256": "4081fa12143af3d6c1760ab9754b643c173240d96b2f9e52cec0abb398c9d4de",
+        "sha256_in_prefix": "4081fa12143af3d6c1760ab9754b643c173240d96b2f9e52cec0abb398c9d4de",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstogg.dll",
+        "path_type": "hardlink",
+        "sha256": "e728a5a256ddd4f615dac98d2e371eecf4c0fa43e587f0d552c9c317e08a9e4e",
+        "sha256_in_prefix": "e728a5a256ddd4f615dac98d2e371eecf4c0fa43e587f0d552c9c317e08a9e4e",
+        "size_in_bytes": 206336
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstogg.lib",
+        "path_type": "hardlink",
+        "sha256": "7697df4e35894707e61d02b8bab2e7db3f185f7b13632c113eaf00adaf3eb4d8",
+        "sha256_in_prefix": "7697df4e35894707e61d02b8bab2e7db3f185f7b13632c113eaf00adaf3eb4d8",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstoverlaycomposition.dll",
+        "path_type": "hardlink",
+        "sha256": "4c3379d43ed03141aacd90ff34466c08eabc2f6e598299acbc1ecdb7908c88af",
+        "sha256_in_prefix": "4c3379d43ed03141aacd90ff34466c08eabc2f6e598299acbc1ecdb7908c88af",
+        "size_in_bytes": 24576
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstoverlaycomposition.lib",
+        "path_type": "hardlink",
+        "sha256": "eb66f31b4c2a70dfcb939506f9873a918765dab6a11cf623bba8b8267e91a82e",
+        "sha256_in_prefix": "eb66f31b4c2a70dfcb939506f9873a918765dab6a11cf623bba8b8267e91a82e",
+        "size_in_bytes": 2436
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstpbtypes.dll",
+        "path_type": "hardlink",
+        "sha256": "996ae1894e7a21dbf49d8615ef700b47095fbcd8ae30828cfce402c4adccb187",
+        "sha256_in_prefix": "996ae1894e7a21dbf49d8615ef700b47095fbcd8ae30828cfce402c4adccb187",
+        "size_in_bytes": 9728
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstpbtypes.lib",
+        "path_type": "hardlink",
+        "sha256": "4d298f9e83c847856ce9f20c631045fafc171eb82f89afc51944404c44d5d2e1",
+        "sha256_in_prefix": "4d298f9e83c847856ce9f20c631045fafc171eb82f89afc51944404c44d5d2e1",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstplayback.dll",
+        "path_type": "hardlink",
+        "sha256": "4a4b0fd9ef2ac36e8129cce0ac5cd8477b0a11e91009d29779a134f5c0542f1a",
+        "sha256_in_prefix": "4a4b0fd9ef2ac36e8129cce0ac5cd8477b0a11e91009d29779a134f5c0542f1a",
+        "size_in_bytes": 521728
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstplayback.lib",
+        "path_type": "hardlink",
+        "sha256": "d798f10936bab1f0b53662df3a7079953b4e51a5ce3e9a616f17529628a086fe",
+        "sha256_in_prefix": "d798f10936bab1f0b53662df3a7079953b4e51a5ce3e9a616f17529628a086fe",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstrawparse.dll",
+        "path_type": "hardlink",
+        "sha256": "06110a2d14c924e9d0568a53a8780e64f3142f283c291e4fe6c02bfed871efb1",
+        "sha256_in_prefix": "06110a2d14c924e9d0568a53a8780e64f3142f283c291e4fe6c02bfed871efb1",
+        "size_in_bytes": 55808
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstrawparse.lib",
+        "path_type": "hardlink",
+        "sha256": "8c80142d78f2d65f591421f4cd3057d53ac6e0969bea6368257466af6ca908a9",
+        "sha256_in_prefix": "8c80142d78f2d65f591421f4cd3057d53ac6e0969bea6368257466af6ca908a9",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstsubparse.dll",
+        "path_type": "hardlink",
+        "sha256": "88e9eda8eb462d49f13ce96230897c3d04de640a78fa07a8e00f7c235b6e61af",
+        "sha256_in_prefix": "88e9eda8eb462d49f13ce96230897c3d04de640a78fa07a8e00f7c235b6e61af",
+        "size_in_bytes": 73216
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstsubparse.lib",
+        "path_type": "hardlink",
+        "sha256": "af00d46c5fc201f84ba59c31557e46f31d0d533bae909f57c00574d0ef1f4b5d",
+        "sha256_in_prefix": "af00d46c5fc201f84ba59c31557e46f31d0d533bae909f57c00574d0ef1f4b5d",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gsttcp.dll",
+        "path_type": "hardlink",
+        "sha256": "f8db5283e31c0932840127adfbb37f611d5145766c26492a9cf5dd7b97c09d5b",
+        "sha256_in_prefix": "f8db5283e31c0932840127adfbb37f611d5145766c26492a9cf5dd7b97c09d5b",
+        "size_in_bytes": 89600
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gsttcp.lib",
+        "path_type": "hardlink",
+        "sha256": "8536b2d5b7864e2e66ba8540f8865f641b1d06914f6b449f0e780575d4c51e95",
+        "sha256_in_prefix": "8536b2d5b7864e2e66ba8540f8865f641b1d06914f6b449f0e780575d4c51e95",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gsttypefindfunctions.dll",
+        "path_type": "hardlink",
+        "sha256": "88391886d81cdd800ace91db74aa139048222cbd01c9a182b9bfcbbdcd5dd73f",
+        "sha256_in_prefix": "88391886d81cdd800ace91db74aa139048222cbd01c9a182b9bfcbbdcd5dd73f",
+        "size_in_bytes": 97792
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gsttypefindfunctions.lib",
+        "path_type": "hardlink",
+        "sha256": "ad38d2e80fc3a2fe48a7cd9cfd788f98c66895a00b1063452023e23e5466fbb4",
+        "sha256_in_prefix": "ad38d2e80fc3a2fe48a7cd9cfd788f98c66895a00b1063452023e23e5466fbb4",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideoconvert.dll",
+        "path_type": "hardlink",
+        "sha256": "1c51d411540be43422eca0f9b9cc7e872561a8bd256647818baff4fb39cd9145",
+        "sha256_in_prefix": "1c51d411540be43422eca0f9b9cc7e872561a8bd256647818baff4fb39cd9145",
+        "size_in_bytes": 24576
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideoconvert.lib",
+        "path_type": "hardlink",
+        "sha256": "24f45704ee324a22eb0d5d75ab18375b533d896e77fa220d324d3179be53455e",
+        "sha256_in_prefix": "24f45704ee324a22eb0d5d75ab18375b533d896e77fa220d324d3179be53455e",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideorate.dll",
+        "path_type": "hardlink",
+        "sha256": "e059421556b61bb1ed22acb4a8a557fb538533a1940e67c7f053d4dbb3e47a48",
+        "sha256_in_prefix": "e059421556b61bb1ed22acb4a8a557fb538533a1940e67c7f053d4dbb3e47a48",
+        "size_in_bytes": 42496
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideorate.lib",
+        "path_type": "hardlink",
+        "sha256": "9d9d490c24296badd032896d722eb6c95aa3545e267afbfb8db955dafc32119e",
+        "sha256_in_prefix": "9d9d490c24296badd032896d722eb6c95aa3545e267afbfb8db955dafc32119e",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideoscale.dll",
+        "path_type": "hardlink",
+        "sha256": "1d5440702092a3a127750129bc57eefb47f25d13c0e0bc48b505740e1a3f0fa8",
+        "sha256_in_prefix": "1d5440702092a3a127750129bc57eefb47f25d13c0e0bc48b505740e1a3f0fa8",
+        "size_in_bytes": 32768
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideoscale.lib",
+        "path_type": "hardlink",
+        "sha256": "8ed8d6812c3c82d3176bb47262b5c64c06fb5e90c7007360ef175b0cd2d76c97",
+        "sha256_in_prefix": "8ed8d6812c3c82d3176bb47262b5c64c06fb5e90c7007360ef175b0cd2d76c97",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideotestsrc.dll",
+        "path_type": "hardlink",
+        "sha256": "74c7cf9edcec1a516d296d576e6234a6cef3dfa1d254b8b4388081a457b7f7c2",
+        "sha256_in_prefix": "74c7cf9edcec1a516d296d576e6234a6cef3dfa1d254b8b4388081a457b7f7c2",
+        "size_in_bytes": 62976
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvideotestsrc.lib",
+        "path_type": "hardlink",
+        "sha256": "c0c16c338a00706d79f6d71f6a41491bc2a72bf7d730396227bd8bb7b3404c01",
+        "sha256_in_prefix": "c0c16c338a00706d79f6d71f6a41491bc2a72bf7d730396227bd8bb7b3404c01",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvolume.dll",
+        "path_type": "hardlink",
+        "sha256": "41e11661e602b471d4b0d53d1484528f1fe002173a7234d7b8278ac6c198fba5",
+        "sha256_in_prefix": "41e11661e602b471d4b0d53d1484528f1fe002173a7234d7b8278ac6c198fba5",
+        "size_in_bytes": 30720
+      },
+      {
+        "_path": "Library/lib/gstreamer-1.0/gstvolume.lib",
+        "path_type": "hardlink",
+        "sha256": "834072a359a9f4ca17063d95fed9d4bacd0c9fe852146a7121eda3b456f9381d",
+        "sha256_in_prefix": "834072a359a9f4ca17063d95fed9d4bacd0c9fe852146a7121eda3b456f9381d",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "Library/lib/gstriff-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "11bf6980dbd9e6745a9824fcf715dc5684843c8d0063e636f4c2b27c65e3a961",
+        "sha256_in_prefix": "11bf6980dbd9e6745a9824fcf715dc5684843c8d0063e636f4c2b27c65e3a961",
+        "size_in_bytes": 5498
+      },
+      {
+        "_path": "Library/lib/gstrtp-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "4b06ac71c1ff53962ab46389bd55098babcb1d94be37079b50ccb2be391db843",
+        "sha256_in_prefix": "4b06ac71c1ff53962ab46389bd55098babcb1d94be37079b50ccb2be391db843",
+        "size_in_bytes": 54768
+      },
+      {
+        "_path": "Library/lib/gstrtsp-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "ea4ba2416b3187d2fa51f0115e2bba6a4dcb1cc661d0c6b0bc86267ffb561f47",
+        "sha256_in_prefix": "ea4ba2416b3187d2fa51f0115e2bba6a4dcb1cc661d0c6b0bc86267ffb561f47",
+        "size_in_bytes": 46850
+      },
+      {
+        "_path": "Library/lib/gstsdp-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "0170413fbea910ec3fdf5e9de3c1bb0374ffc954475e0533495cf78932870e8f",
+        "sha256_in_prefix": "0170413fbea910ec3fdf5e9de3c1bb0374ffc954475e0533495cf78932870e8f",
+        "size_in_bytes": 47978
+      },
+      {
+        "_path": "Library/lib/gsttag-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "276d94cf2c6233bfcfac118394a8302dc290145ba99b57957e8e442e2ca33dfa",
+        "sha256_in_prefix": "276d94cf2c6233bfcfac118394a8302dc290145ba99b57957e8e442e2ca33dfa",
+        "size_in_bytes": 15876
+      },
+      {
+        "_path": "Library/lib/gstvideo-1.0.lib",
+        "path_type": "hardlink",
+        "sha256": "c8e82c964209cf861660dc690722c90922bd702d8e4138508ab16664cca80312",
+        "sha256_in_prefix": "c8e82c964209cf861660dc690722c90922bd702d8e4138508ab16664cca80312",
+        "size_in_bytes": 121124
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-allocators-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "244bdb9992bf5a1e6df9cabe65e7f174e3dee9057feb2740ade5e1fbb57ab819",
+        "sha256_in_prefix": "6e4255372638089b8c821b33f57c660ce156e9a690e29fde63186997a40d5b4c",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-app-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "8cc62bfae64eff6caf96fc7416ea676b712bb817f46d97d146068666172a6b6b",
+        "sha256_in_prefix": "31b20e7bafb6dd82473ec0b080e3ac13a4d873c829cf1b90cf70244dcd8a6e79",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-audio-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "33baedbe41955d7d19e66047b050d8a8717deabe84b506450acc3fdd08c1ff07",
+        "sha256_in_prefix": "090fa9ff7dc43e3af37362a272a6bed59dafe5bbe361a5a4ff47d961ec23e3b8",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-fft-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "b5883727a64802abfd36468b8e91b2a1242abf4280c9bf3c0578b89604460784",
+        "sha256_in_prefix": "135b64a6b2a9a655083ce7f703a9852f97c6e9a268433ffdcd74a3237ebb07a9",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-pbutils-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "ad2d7bab3c14aea46898fee25ff9f3b17913fa1f5442cbb6b87e24f767373893",
+        "sha256_in_prefix": "2d47f6ee97f54739dd7bb1f3ad6c53045b60ffbac41571f8fe53dfe0f975a0c7",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-plugins-base-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "21a65c6a560727a07f5a9bdf8757fd0a8b8c80a75987b0d1f882fe2a1e153539",
+        "sha256_in_prefix": "aa8a098bc9da257bfcd51b02ebc6cb46fc267a497cb6e678442d61a564e76f88",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-riff-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "99927ebe7f7418e7abd1d0a142fd4cbcaa7e0af87205c94b6887d299ebd53909",
+        "sha256_in_prefix": "3d587684dd224a275ec71f7b15a13e94427a834007d4f9327c3bcc0ee96b47e6",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-rtp-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "3f9321e112dc53cdb18264c977c720b372c446ef41434f3a96f12f3f601c3fba",
+        "sha256_in_prefix": "4cae057e8fa155b6c7302fe5ff6221feca983c7223e4fbf595c2244b0d9828f9",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-rtsp-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "135fc31bd47f8a11263c3b18145eb7a6d5af11664d22e067f1bb19898603f07e",
+        "sha256_in_prefix": "227bc2881c863a7ce7f82bc94b1f91f6ac04a7bb597129fac11b073edd48c03d",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-sdp-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "bccfeaa7b97f1462ccdb133820886610cc77d53fe90ef9cedefa320fe2b456b2",
+        "sha256_in_prefix": "d441a9078d9a2898d9f6047038dddcd9826cd6064943a8bf9bb293426ece6e7e",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-tag-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "b93ee49a733e4f91ace22419d2eca2f98c769f3bf0680826981b2fe81fa34260",
+        "sha256_in_prefix": "ee27f71343e3c8e9bc04aa48d04cb9b418ef5780eae007b03ca1b7ab83ec4f52",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gstreamer-video-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/gstreamer_and_plugins_1632218643292/_h_env",
+        "sha256": "ed3b498dec5c773c14d1740afd4e608ed2aed0117b7694a431aebad82f717c97",
+        "sha256_in_prefix": "c21e50c158a39ae6cedc011a32dc8dfc1a5bccb8852b342339cbc6c3b5787eb6",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstAllocators-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "3f693e189ffa91ab67571799a3f007f37a2020f4f8f15ff149f18377058fc0be",
+        "sha256_in_prefix": "3f693e189ffa91ab67571799a3f007f37a2020f4f8f15ff149f18377058fc0be",
+        "size_in_bytes": 28959
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstApp-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "8b42e1faef7eaf066368069cfc2d397bf5fb3fef8d73e9e4cac23d1a5f1570f9",
+        "sha256_in_prefix": "8b42e1faef7eaf066368069cfc2d397bf5fb3fef8d73e9e4cac23d1a5f1570f9",
+        "size_in_bytes": 123267
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstAudio-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "96b6682df2ddc111531cbe1b8d59852e47c8615f532b824a1c54343913f4175b",
+        "sha256_in_prefix": "96b6682df2ddc111531cbe1b8d59852e47c8615f532b824a1c54343913f4175b",
+        "size_in_bytes": 699652
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstPbutils-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "dedd757befbabf2a8ecb93dd36ac0821ef3608c6ee75e9ca40c9f1414c27eb91",
+        "sha256_in_prefix": "dedd757befbabf2a8ecb93dd36ac0821ef3608c6ee75e9ca40c9f1414c27eb91",
+        "size_in_bytes": 317981
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstRtp-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "8757e17ad1d92a764ce69046d5757bebd6f0efe69da2ad461d8bed7e66bde534",
+        "sha256_in_prefix": "8757e17ad1d92a764ce69046d5757bebd6f0efe69da2ad461d8bed7e66bde534",
+        "size_in_bytes": 399814
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstRtsp-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "89be127badfd58d383806e6d8ca18034a61b77bd142d5bc0aadfb2a5b5db472b",
+        "sha256_in_prefix": "89be127badfd58d383806e6d8ca18034a61b77bd142d5bc0aadfb2a5b5db472b",
+        "size_in_bytes": 345496
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstSdp-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "816553d4aa948f371f91a22633eb4c7ba4b280ce22063f9831ce581a9e603541",
+        "sha256_in_prefix": "816553d4aa948f371f91a22633eb4c7ba4b280ce22063f9831ce581a9e603541",
+        "size_in_bytes": 209069
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstTag-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "69d2641b9b39f1d6852feff871ec558690b9ff0eaa114812a8c7d7b009d024ac",
+        "sha256_in_prefix": "69d2641b9b39f1d6852feff871ec558690b9ff0eaa114812a8c7d7b009d024ac",
+        "size_in_bytes": 119484
+      },
+      {
+        "_path": "Library/share/gir-1.0/GstVideo-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "a3a47bc54f388e548e5c5d8d5c8544eb607eff754bd6640da6782b781c300907",
+        "sha256_in_prefix": "a3a47bc54f388e548e5c5d8d5c8544eb607eff754bd6640da6782b781c300907",
+        "size_in_bytes": 1161485
+      },
+      {
+        "_path": "Library/share/gst-plugins-base/1.0/license-translations.dict",
+        "path_type": "hardlink",
+        "sha256": "25ebb771dd2bc53bedf66e1b4bee7e6169bd5c0eee84621e7c4ac2d91f9826c2",
+        "sha256_in_prefix": "25ebb771dd2bc53bedf66e1b4bee7e6169bd5c0eee84621e7c4ac2d91f9826c2",
+        "size_in_bytes": 44604
+      },
+      {
+        "_path": "Library/share/locale/af/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "205061ba0e80a7f0ed4195805ec1d2c4a5c12457b7b99ae57692d538242314fc",
+        "sha256_in_prefix": "205061ba0e80a7f0ed4195805ec1d2c4a5c12457b7b99ae57692d538242314fc",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "Library/share/locale/az/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d041f21b77e555aaf0e373f5232267e744db7a171ca622a38198794531526921",
+        "sha256_in_prefix": "d041f21b77e555aaf0e373f5232267e744db7a171ca622a38198794531526921",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "Library/share/locale/bg/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "257ebd2e8c9e2de058af69e20123afb6b678f4342bc550313b973968e1729f86",
+        "sha256_in_prefix": "257ebd2e8c9e2de058af69e20123afb6b678f4342bc550313b973968e1729f86",
+        "size_in_bytes": 22607
+      },
+      {
+        "_path": "Library/share/locale/ca/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cb4a9431b3e2ab772c8d8ed37ffb74660d93fb6ce322996024a171161e18d718",
+        "sha256_in_prefix": "cb4a9431b3e2ab772c8d8ed37ffb74660d93fb6ce322996024a171161e18d718",
+        "size_in_bytes": 12278
+      },
+      {
+        "_path": "Library/share/locale/cs/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "6c257e5c5af6eebe086071e9038f41a42009fb04e57b7f294846eec208aa2cef",
+        "sha256_in_prefix": "6c257e5c5af6eebe086071e9038f41a42009fb04e57b7f294846eec208aa2cef",
+        "size_in_bytes": 18511
+      },
+      {
+        "_path": "Library/share/locale/da/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "82ebebe56afde1ec3958b8b3014518a1c34689f66b7573f08e5de0d64200abcd",
+        "sha256_in_prefix": "82ebebe56afde1ec3958b8b3014518a1c34689f66b7573f08e5de0d64200abcd",
+        "size_in_bytes": 17920
+      },
+      {
+        "_path": "Library/share/locale/de/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d3444620b61b0f27c5d0caa6ff9111b0d11dd158fff0baed4f5730c4521a2e5d",
+        "sha256_in_prefix": "d3444620b61b0f27c5d0caa6ff9111b0d11dd158fff0baed4f5730c4521a2e5d",
+        "size_in_bytes": 18817
+      },
+      {
+        "_path": "Library/share/locale/el/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "3264ad2c6956704b672690003c719442a389751263115bd7d4c5e0cba2e5b7c5",
+        "sha256_in_prefix": "3264ad2c6956704b672690003c719442a389751263115bd7d4c5e0cba2e5b7c5",
+        "size_in_bytes": 15737
+      },
+      {
+        "_path": "Library/share/locale/en_GB/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7f063884071c4fdd2cee4436d866a60c23d68eb1acd44bac46c1e73951e59aa1",
+        "sha256_in_prefix": "7f063884071c4fdd2cee4436d866a60c23d68eb1acd44bac46c1e73951e59aa1",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "Library/share/locale/eo/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b948956a2e286a6b9e5c611cd902e089476b383adb54db37f8982f3b6169888e",
+        "sha256_in_prefix": "b948956a2e286a6b9e5c611cd902e089476b383adb54db37f8982f3b6169888e",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "Library/share/locale/es/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "83a2f6b85867c7c8ecaf314530e85b78ed0f7bef43f42769af19b8970cce4010",
+        "sha256_in_prefix": "83a2f6b85867c7c8ecaf314530e85b78ed0f7bef43f42769af19b8970cce4010",
+        "size_in_bytes": 12293
+      },
+      {
+        "_path": "Library/share/locale/eu/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "6656cf7da067d70944044252c1d08babf653b4e42f37ef2949f366fd09e4d114",
+        "sha256_in_prefix": "6656cf7da067d70944044252c1d08babf653b4e42f37ef2949f366fd09e4d114",
+        "size_in_bytes": 7961
+      },
+      {
+        "_path": "Library/share/locale/fi/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "69d7f8e6ecede2fcb75217c44c4b19d98057dbe6bfdab603cca11b8f99db8207",
+        "sha256_in_prefix": "69d7f8e6ecede2fcb75217c44c4b19d98057dbe6bfdab603cca11b8f99db8207",
+        "size_in_bytes": 11300
+      },
+      {
+        "_path": "Library/share/locale/fr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "ead3e07dc0c2953c0277914ab83393322d5ef66b0b614de7cd150b1666cd1310",
+        "sha256_in_prefix": "ead3e07dc0c2953c0277914ab83393322d5ef66b0b614de7cd150b1666cd1310",
+        "size_in_bytes": 18782
+      },
+      {
+        "_path": "Library/share/locale/fur/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "11e522414ed238206c086b1feba3b65aaaa9920d6e2962e11caadaf8ccae2336",
+        "sha256_in_prefix": "11e522414ed238206c086b1feba3b65aaaa9920d6e2962e11caadaf8ccae2336",
+        "size_in_bytes": 11702
+      },
+      {
+        "_path": "Library/share/locale/gl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f78bc55285472c0a38db371684353285a3bc75d6fb91e270a85e92edb139fb00",
+        "sha256_in_prefix": "f78bc55285472c0a38db371684353285a3bc75d6fb91e270a85e92edb139fb00",
+        "size_in_bytes": 12985
+      },
+      {
+        "_path": "Library/share/locale/hr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "2a0284e629fe154c68231eac2628f4707d7b04ae81c21c63d510f0c8b4f6deec",
+        "sha256_in_prefix": "2a0284e629fe154c68231eac2628f4707d7b04ae81c21c63d510f0c8b4f6deec",
+        "size_in_bytes": 18431
+      },
+      {
+        "_path": "Library/share/locale/hu/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d1a2a036fc7264da1a40ccffc1510db9699f69255509d8ae744a1706ac15f5c3",
+        "sha256_in_prefix": "d1a2a036fc7264da1a40ccffc1510db9699f69255509d8ae744a1706ac15f5c3",
+        "size_in_bytes": 18214
+      },
+      {
+        "_path": "Library/share/locale/id/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "26c98b80138d0f9a5b2b251ae68978a290bcdfe5dd1ed548dab3d730788807e1",
+        "sha256_in_prefix": "26c98b80138d0f9a5b2b251ae68978a290bcdfe5dd1ed548dab3d730788807e1",
+        "size_in_bytes": 17295
+      },
+      {
+        "_path": "Library/share/locale/it/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "864e81e7be74ecc03e3432dfa0a21093a0cea03e0ba38d8bf2cca9617fc60f5d",
+        "sha256_in_prefix": "864e81e7be74ecc03e3432dfa0a21093a0cea03e0ba38d8bf2cca9617fc60f5d",
+        "size_in_bytes": 19088
+      },
+      {
+        "_path": "Library/share/locale/ja/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "781afedbb070b3faa322305c11ec986097e0524f14102cfc14422857a5a905ab",
+        "sha256_in_prefix": "781afedbb070b3faa322305c11ec986097e0524f14102cfc14422857a5a905ab",
+        "size_in_bytes": 9956
+      },
+      {
+        "_path": "Library/share/locale/lt/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "16d987098b1f9247a3215df3efce5808a12ac03a56deb984f33d026b0d8767bb",
+        "sha256_in_prefix": "16d987098b1f9247a3215df3efce5808a12ac03a56deb984f33d026b0d8767bb",
+        "size_in_bytes": 6129
+      },
+      {
+        "_path": "Library/share/locale/lv/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d5834cc92f9614745ca714a2e9db211672460f02612b0d1d3df3e4d51f5db062",
+        "sha256_in_prefix": "d5834cc92f9614745ca714a2e9db211672460f02612b0d1d3df3e4d51f5db062",
+        "size_in_bytes": 14387
+      },
+      {
+        "_path": "Library/share/locale/nb/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f8358ffb6b43229c1aedec8becd41df79f43e6399b32edf170911a0dcab66f37",
+        "sha256_in_prefix": "f8358ffb6b43229c1aedec8becd41df79f43e6399b32edf170911a0dcab66f37",
+        "size_in_bytes": 17009
+      },
+      {
+        "_path": "Library/share/locale/nl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "1c7bd907a87eeb2cffc83b98bb157e9a48d8d90a8760fd0dc38dacdaed7921e9",
+        "sha256_in_prefix": "1c7bd907a87eeb2cffc83b98bb157e9a48d8d90a8760fd0dc38dacdaed7921e9",
+        "size_in_bytes": 17262
+      },
+      {
+        "_path": "Library/share/locale/or/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cb8f946c32f4eb16063dcf2329568ed6cc6678793ee3154e13c1ac8e72016def",
+        "sha256_in_prefix": "cb8f946c32f4eb16063dcf2329568ed6cc6678793ee3154e13c1ac8e72016def",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "Library/share/locale/pl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "dbe2cc89ad2b87e8d65a90d6050b7322efd29e705e33e00b695ffc6dfab85087",
+        "sha256_in_prefix": "dbe2cc89ad2b87e8d65a90d6050b7322efd29e705e33e00b695ffc6dfab85087",
+        "size_in_bytes": 18723
+      },
+      {
+        "_path": "Library/share/locale/pt_BR/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "290888f8fdbce37cdf52005bb9d27f1f5d89a9fc2033f3dea8d1379267372e78",
+        "sha256_in_prefix": "290888f8fdbce37cdf52005bb9d27f1f5d89a9fc2033f3dea8d1379267372e78",
+        "size_in_bytes": 18553
+      },
+      {
+        "_path": "Library/share/locale/ro/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e49729bb6d87c596f25011bbcff78fbf212fddc9193220c0372ec57348c0259c",
+        "sha256_in_prefix": "e49729bb6d87c596f25011bbcff78fbf212fddc9193220c0372ec57348c0259c",
+        "size_in_bytes": 7644
+      },
+      {
+        "_path": "Library/share/locale/ru/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "dcb346040685a4b5a548aa01ac55d12f16bb1e8dba1f0d316b88555ff0a26089",
+        "sha256_in_prefix": "dcb346040685a4b5a548aa01ac55d12f16bb1e8dba1f0d316b88555ff0a26089",
+        "size_in_bytes": 23617
+      },
+      {
+        "_path": "Library/share/locale/sk/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "80b9ea34635325904b2a0d44c4d86f8dc506f78b7d13b1fc0d897a6dc7723433",
+        "sha256_in_prefix": "80b9ea34635325904b2a0d44c4d86f8dc506f78b7d13b1fc0d897a6dc7723433",
+        "size_in_bytes": 16806
+      },
+      {
+        "_path": "Library/share/locale/sl/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e0008fe23d2f89e052b30d8075427a30cf297e9727855e5cbd189260f1f3da14",
+        "sha256_in_prefix": "e0008fe23d2f89e052b30d8075427a30cf297e9727855e5cbd189260f1f3da14",
+        "size_in_bytes": 12488
+      },
+      {
+        "_path": "Library/share/locale/sq/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e1b2a0fa448e49fd3a227d85415be5d9fe258410fe482b85b9822c8e6ba1e84f",
+        "sha256_in_prefix": "e1b2a0fa448e49fd3a227d85415be5d9fe258410fe482b85b9822c8e6ba1e84f",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "Library/share/locale/sr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b8d5b4d29ca408955b7d6e89cd3e8a4308e09370b071f0687475f4e7b4ca23d2",
+        "sha256_in_prefix": "b8d5b4d29ca408955b7d6e89cd3e8a4308e09370b071f0687475f4e7b4ca23d2",
+        "size_in_bytes": 22616
+      },
+      {
+        "_path": "Library/share/locale/sv/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "41be71f22d9333a88b70d00b8a3934409af3055972e862337e9ba908f69244a1",
+        "sha256_in_prefix": "41be71f22d9333a88b70d00b8a3934409af3055972e862337e9ba908f69244a1",
+        "size_in_bytes": 17901
+      },
+      {
+        "_path": "Library/share/locale/tr/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "47b9da8b42b93e676932098b3a78f6a2dc91b1c2a7ed478602f1b3ec1dbc75ad",
+        "sha256_in_prefix": "47b9da8b42b93e676932098b3a78f6a2dc91b1c2a7ed478602f1b3ec1dbc75ad",
+        "size_in_bytes": 18462
+      },
+      {
+        "_path": "Library/share/locale/uk/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7f2e44a56f2c781f1199b2f1d232bd1416740612456da3de88c68fe204f3c248",
+        "sha256_in_prefix": "7f2e44a56f2c781f1199b2f1d232bd1416740612456da3de88c68fe204f3c248",
+        "size_in_bytes": 24571
+      },
+      {
+        "_path": "Library/share/locale/vi/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "481ad574f155dd14e73b8ba11e62b99647c8334ef17dc6960d5aed30095610d3",
+        "sha256_in_prefix": "481ad574f155dd14e73b8ba11e62b99647c8334ef17dc6960d5aed30095610d3",
+        "size_in_bytes": 19844
+      },
+      {
+        "_path": "Library/share/locale/zh_CN/LC_MESSAGES/gst-plugins-base-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "64d81902c5f8425e27b3ff48f949de9e84a1fc78fd8007f00cb1c1dfb5435097",
+        "sha256_in_prefix": "64d81902c5f8425e27b3ff48f949de9e84a1fc78fd8007f00cb1c1dfb5435097",
+        "size_in_bytes": 16878
+      },
+      {
+        "_path": "Library/share/man/man1/gst-device-monitor-1.0.1",
+        "path_type": "hardlink",
+        "sha256": "acb9627f87d715f0ba9528f9fe2afe81bee323748d42f451143f07139f7704f7",
+        "sha256_in_prefix": "acb9627f87d715f0ba9528f9fe2afe81bee323748d42f451143f07139f7704f7",
+        "size_in_bytes": 1378
+      },
+      {
+        "_path": "Library/share/man/man1/gst-discoverer-1.0.1",
+        "path_type": "hardlink",
+        "sha256": "adf2ee95024c1a68bc2ed5be66fd688c88be88c54d2efb7beb50a66e09e313b8",
+        "sha256_in_prefix": "adf2ee95024c1a68bc2ed5be66fd688c88be88c54d2efb7beb50a66e09e313b8",
+        "size_in_bytes": 1001
+      },
+      {
+        "_path": "Library/share/man/man1/gst-play-1.0.1",
+        "path_type": "hardlink",
+        "sha256": "75c1c6fea2b6d11535dcce9e4dc810acafbf66277def1eaf110d747329519c82",
+        "sha256_in_prefix": "75c1c6fea2b6d11535dcce9e4dc810acafbf66277def1eaf110d747329519c82",
+        "size_in_bytes": 2333
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b255fdffce023ca997d8f7c7825aca4fe701adad436b54f17c252e3c7e46d20d",
+  "size": 1806068,
+  "subdir": "win-64",
+  "timestamp": 1632218910000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/gst-plugins-base-1.18.5-h9e645db_0.conda",
+  "version": "1.18.5"
+}

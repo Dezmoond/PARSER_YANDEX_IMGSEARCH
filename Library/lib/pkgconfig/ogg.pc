@@ -1,0 +1,14 @@
+# ogg pkg-config file
+
+prefix=D:/anaconda3/envs/parser/Library
+exec_prefix=D:/anaconda3/envs/parser/Library/bin
+libdir=D:/anaconda3/envs/parser/Library/lib
+includedir=D:/anaconda3/envs/parser/Library/include
+
+Name: ogg
+Description: ogg is a library for manipulating ogg bitstreams
+Version: 1.3.5
+Requires:
+Conflicts:
+Libs: -L${libdir} -logg
+Cflags: -I${includedir}
