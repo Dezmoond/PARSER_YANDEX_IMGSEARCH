@@ -1,7 +1,0 @@
-
-Name: Qt5WebKit
-Description: Qt WebKit module
-Version: 5.212.0
-Libs: -LD:/anaconda3/envs/parser/Library/lib -lQt5WebKit
-Cflags: -ID:/anaconda3/envs/parser/Library/include/qt/QtWebKit 
-Requires: Qt5Core Qt5Gui Qt5Network
