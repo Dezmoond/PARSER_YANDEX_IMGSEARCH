@@ -63,6 +63,7 @@ async def upload_image_to_imagekit(session, image_path):
         return None
 
 async def main(image_paths):
+
     async with aiohttp.ClientSession() as session:
         image_urls = []
         for image_path in image_paths:

@@ -80,20 +80,24 @@ def download_single_image(img_url: str, output_directory: str):
 
         old_size = image.shape[:2]  # старый размер [высота, ширина]
         desired_size = config.DESIRED_SIZE
-        ratio = float(desired_size) / max(old_size)
-        new_size = tuple([int(x * ratio) for x in old_size])
+        if config.resize_option == 0:
+            ratio = float(desired_size) / max(old_size)
+            new_size = tuple([int(x * ratio) for x in old_size])
 
-        # Изменяем размер изображения
-        image = cv2.resize(image, (new_size[1], new_size[0]))
+            # Изменяем размер изображения
+            image = cv2.resize(image, (new_size[1], new_size[0]))
 
-        # Создаем новое изображение и заполняем его
-        delta_w = desired_size - new_size[1]
-        delta_h = desired_size - new_size[0]
-        top, bottom = delta_h // 2, delta_h - (delta_h // 2)
-        left, right = delta_w // 2, delta_w - (delta_w // 2)
+            # Создаем новое изображение и заполняем его
+            delta_w = desired_size - new_size[1]
+            delta_h = desired_size - new_size[0]
+            top, bottom = delta_h // 2, delta_h - (delta_h // 2)
+            left, right = delta_w // 2, delta_w - (delta_w // 2)
 
-        color = [0, 0, 0]
-        new_image = cv2.copyMakeBorder(image, top, bottom, left, right, cv2.BORDER_REPLICATE, value=color)
+            color = [0, 0, 0]
+            new_image = cv2.copyMakeBorder(image, top, bottom, left, right, cv2.BORDER_REPLICATE, value=color)
+        elif config.resize_option == 1:
+            new_image = cv2.resize(image, (desired_size, desired_size))
+        else: print('Значение resize_option в файле config может быть 0 или 1')
 
         # Повышаем качество изображения
         new_image = enhance_image_quality(new_image)
